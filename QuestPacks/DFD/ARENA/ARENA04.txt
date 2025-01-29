@@ -1,0 +1,295 @@
+Quest: ARENA04
+DisplayName: Lieferung für einen Adligen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Seid gegrüßt, %pcn, und willkommen zu %cn.
+<ce> Wenn Ihr Ruhm und Reichtum sucht, so habe ich
+<ce> eine Aufgabe für Euch: ein Paket zu überbringen.
+<ce> Könnt Ihr mir beistehen?
+<--->
+<ce> Ja, ich habe von Euch gehört. Zweifellos sucht Ihr
+<ce> nach einem Weg, einige Goldstücke zu verdienen.
+<ce> Normalerweise würde ich jemanden wie Euch abweisen,
+<ce> doch in diesen Zeiten könnte %reg jemanden wie Euch
+<ce> gut gebrauchen, um ein wichtiges Paket zu liefern.
+<--->
+<ce> Ah, Ihr seid %pcn. Ich will mit Euch sprechen, denn
+<ce> meine Stadt bedarf Eurer Hilfe. Es gibt etwas Wichtiges
+<ce> zu überbringen, und man sagt, Ihr hättet Erfahrung.
+<ce> Seid Ihr interessiert?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Risiken, diese Aufgabe
+<ce> anzunehmen, und das macht Euch verständlicherweise
+<ce> nervös. So sei es, %ra. Verzeiht mir, wenn ich
+<ce> Euch nicht zur Tür geleite. Lebt wohl.
+<--->
+<ce> Wie schade. Ich muss wohl einen anderen Champion finden.
+<ce> Guten Tag, %pcn. Ich wünsche Euch alles Gute.
+<--->
+<ce> Nun, es überrascht mich nicht, dass Ihr dieses Abenteuer
+<ce> ablehnt, denn ich habe gehört, dass junge Leute wie Ihr,
+<ce> %ra, oft wenig Ehrgeiz haben. Ich hoffe, Ihr findet
+<ce> anderswo eine Aufgabe von Wert. Verlasst mich jetzt.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte zu folgen.
+<ce> Ich hoffe, Eure Reisen verlaufen wohl, und Ihr kehrt eines Tages
+<ce> nach %cn zurück. Nun könnt Ihr gehen. Ich werde jemanden
+<ce> finden, der bereit ist, dem %rt zu dienen und dabei
+<ce> reich zu werden. Gehabt Euch wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer viel zu tun hat. Ich sehe, Ihr seid derzeit
+<ce> erfolgreich. Möge das Glück auf Euren Wegen stets bei
+<ce> Euch sein ...
+<--->
+<ce> Ich nehme an, ich kann Euch nicht umstimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, die Risiken für Reichtum
+<ce> und Ruhm auf sich zu nehmen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr wäret interessiert, doch es gibt andere,
+<ce> die gerne die Gelegenheit ergreifen würden, ihre Geldbeutel zu
+<ce> füllen. Ich danke Euch, doch ich muss meine Aufmerksamkeit
+<ce> anderen Angelegenheiten widmen. Viel Glück auf Euren Reisen.
+<--->
+<ce> Ihr verweigert einem Mitglied des Königshauses von %reg
+<ce> solch eine kleine Bitte? Fort mit Euch, denn ich habe Wichtigeres
+<ce> zu bedenken, als einen unbedeutenden Abenteurer wie Euch.
+<ce> Verschwindet!
+
+AcceptQuest:  [1002]
+<ce> Dann sollt Ihr mein Champion sein, %pcn.
+<ce> Bringt diesen Sack zu _location_ in
+<ce> __location_ %di von %cn innerhalb
+<ce> von =timer_ Tagen. Wenn Ihr das schafft, verspreche
+<ce> ich Euch _reward_ Goldstücke von dem Gesandten unserer
+<ce> Verbündeten dort. Ich glaube, dass Feinde von
+<ce> %reg versuchen könnten, diese Lieferung zu
+<ce> verhindern, doch mein Rat meint, es sei anders.
+<ce> Seid bereit für jede Begegnung, es könnte sehr
+<ce> gefährlich werden. Doch Ihr werdet _reward_ Gold
+<ce> reicher sein, wenn Ihr rechtzeitig ankommt.
+<ce> Seid vorsichtig, %ra, und viel Glück.
+<--->
+<ce> Ich freue mich, Euch meinen Champion zu nennen,
+<ce> %pcn, doch noch mehr freue ich mich,
+<ce> wenn diese Angelegenheit hinter uns liegt.
+<ce> Bringt diesen Sack zu _location_ in
+<ce> __location_. Ein Gesandter unserer
+<ce> Verbündeten, ein =dummy_, _dummy_
+<ce> genannt, wird Euch dort mit _reward_ Goldstücken
+<ce> für Eure Mühe belohnen. __location_
+<ce> liegt weniger als =timer_ Tagesreisen %di von hier.
+<ce> Ihr müsst bis dahin diese wichtigen Informationen
+<ce> an den Gesandten in _location_ weiterzugeben,
+<ce> sonst sind sie wertlos. Doch seid gewarnt, Gerüchte
+<ce> sprechen von Agenten der Feinde %reg,
+<ce> die Euch aufhalten könnten. Darauf würde ich mich
+<ce> nicht verlassen, denn ich habe viele Feinde.
+<ce> Seid wachsam und behütet Euer Leben.
+<--->
+<ce> Ausgezeichnet, %pcn. Ihr seid wahrlich mutig.
+<ce> Bringt diesen Sack zu unserem Verbündeten _dummy_
+<ce> in __location_, einer Stadt, die nicht einmal
+<ce> =timer Tagesreisen %di von hier liegt. Ihr müsst
+<ce> _package_ so schnell wie möglich dorthin bringen,
+<ce> damit es unseren Verbündeten helfen kann. Mein Rat
+<ce> glaubt, dass Gegenspieler von %reg Euch
+<ce> aufhalten könnten. Ich bin dessen nicht sicher, doch
+<ce> bleibt wachsam. Erreicht Ihr Euer Ziel rechtzeitig,
+<ce> werdet Ihr _reward_ Gold erhalten. %cn
+<ce> verlässt sich auf Euch. Reist schnell, seid vorsichtig
+<ce> und möge das Glück mit Euch sein.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Ihr müsst %pcn sein. Ich bin vom Gefolge unserer
+<ce> Verbündeten gesandt worden, um das Paket von Euch zu
+<ce> übernehmen. Ich bin froh, dass Ihr _location_
+<ce> rechtzeitig gefunden habt. Hier sind Eure _reward_ Goldstücke,
+<ce> wie versprochen.
+<--->
+<ce> Mein Auftraggeber, der Rat der Verbündeten Eures %rt,
+<ce> ist äußerst erpicht darauf, dieses Paket zu erhalten.
+<ce> Sie werden überaus erfreut sein, dass Ihr es rechtzeitig
+<ce> geliefert habt. Nehmt diese _reward_ Goldstücke als
+<ce> bescheidenes Zeichen unserer Wertschätzung. Nun muss
+<ce> ich gehen. Lebt wohl.
+<--->
+<ce> Ah, wir fürchteten schon, Ihr würdet _location_
+<ce> nicht rechtzeitig finden. Mein Auftraggeber wird erleichtert
+<ce> sein, dieses Paket zu erhalten, und Ihr werdet nicht vergessen,
+<ce> guter %ra. Hier sind _reward_ Goldstücke, wie versprochen.
+<ce> Habt Dank und lebt wohl.“
+
+RumorsDuringQuest:   [1005]
+Ich werde mich umhören, doch ich habe zuletzt nichts gehört, was Euch interessieren könnte.
+<--->
+Ich will nicht wie ein Narr klingen, doch bin ich überzeugt, dass unser %t von den Daedra besessen ist.
+<--->
+Diese Stadt wimmelt nach Einbruch der Dunkelheit von Untoten. Seid stets bewaffnet!
+<--->
+Ich habe keine Beweise dafür, doch Ihr müsst mir glauben. Ich weiß, der %t ist ein Hochstapler. Und nicht nur das, ich habe gehört, dass %rn auch ein Kannibale sei.
+
+RumorsPostSuccess:   [1007]
+Nun, ich habe gehört, dass die Verbündeten von %reg kürzlich ein Paket von _questgiver_ erhalten haben. Gar geheimnisvoll, in der Tat.
+<--->
+Manche von uns versuchen, die Bedeutung einer bestimmten Lieferung zu verstehen, die die Verbündeten des %rt erhielten. Einige sagen, sie sei von einem Gesandten in __location_ gekommen, doch wir alle wissen, dass das unmöglich ist.
+<--->
+Der Rat eines Verbündeten von %reg ist wütend, denn offenbar erhielten und bezahlten sie ein gefälschtes Relikt vom Fürsten von ___questgiver_. Ich möchte nicht in der Haut des Überbringers stecken, wenn sie ihn finden.
+<--->
+Der Rat eines Verbündeten von %reg ist wütend, denn offenbar erhielten und bezahlten sie ein gefälschtes Relikt von der Fürstin von ___questgiver_. Ich möchte nicht in der Haut des Überbringers stecken, wenn sie ihn finden.“
+<--->
+Der Baron von ___questgiver_ hat wohl ein Paket an einen seiner Verbündeten in __location_ geschickt. Niemand außer dessen Gesandter weiß warum, und die meisten sind besorgt.
+<--->
+Die Baronin von ___questgiver_ hat wohl ein Paket an einen ihrer Verbündeten in __location_ geschickt. Niemand außer dessen Gesandter weiß warum, und die meisten sind besorgt.
+<--->
+Offenbar hat es ein %ra Schmuggler geschafft, verbotene Waren von ___questgiver_ nach __location_ zu bringen, direkt in die Hände eines Gesandten von %reg. Ich hoffe, sie arbeiten an der Sicherheit dieser Stadt.
+
+QuestorPostsuccess:  [1008]
+<ce> Ja, %pcn. Ich erinnere mich an Eure
+<ce> Dienste für die Krone von %reg.
+<ce> Unsere Verbündeten senden ihren Dank.
+
+QuestorPostfailure:  [1009]
+
+Message: 1010
+%qdt
+ Ich habe _questgiver_ in ___questgiver_
+ versprochen, einen kleinen Sack an _dummy_,
+ einen Gesandten der Verbündeten von %reg,
+ in __location_ zu liefern. Mein Kontakt ist
+ in _location_. _questgiver_
+ glaubt, dass Agenten eines Konkurrenten von %g3
+ versuchen könnten, mich aufzuhalten. Ich habe
+ =timer_ Tage, um den Gegenstand zu liefern.
+
+Message: 1020
+<ce> Euer Inventar fühlt sich leichter an. Offenbar
+<ce> hat ein geschickter Taschendieb Euch um eine
+<ce> Last erleichtert. Nach Überprüfung merkt Ihr,
+<ce> dass das Paket für _dummy_ fehlt.
+<--->
+<ce> _dummy_ sollte das Paket inzwischen erhalten
+<ce> haben. Da Ihr keine Goldmünze mehr dafür
+<ce> bekommen werdet, werft Ihr es weg.
+
+Message: 1030
+<ce> Diese Krieger wurden offenkundig von den
+<ce> Feinden von %reg gesandt,
+<ce> um Euch aufzuhalten, denn sie tragen die
+<ce> Farben ihres Hauses mit Stolz.
+<--->
+<ce> Die Gruppe, die Euch den Weg versperrt, steht
+<ce> im Dienste eines anderen. Es scheint offensichtlich,
+<ce> dass einer der Feinde von %reg ihr
+<ce> Gebieter ist, wenn sie wahrhaft wünschen,
+<ce> dass Eure Aufgabe scheitert.
+<--->
+<ce> Die Farben, die diese feindliche Gruppe trägt,
+<ce> gehören den Feinden von %reg. Es scheint,
+<ce> dass die Gerüchte über ihr Interesse, Eure
+<ce> Aufgabe zu vereiteln, wahr sind.
+<--->
+<ce> Eine gelegentlich umherziehende Bande ist
+<ce> kein ungewöhnlicher Anblick, doch eine, die
+<ce> die Farben der Feinde von %reg
+<ce> trägt, ist wahrlich seltsam.
+<ce> Es ist offensichtlich, dass sie Euch wirklich
+<ce> tot sehen wollen.
+<--->
+<ce> Man könnte dies für ein zufälliges Zusammentreffen
+<ce> mit einem feindlichen Krieger halten, doch nicht,
+<ce> wenn er die Farben der Feinde von %reg
+<ce> trägt. Die Gerüchte über ihre Einmischung in Eure
+<ce> Aufgabe sind offenbar wahr.
+
+Message: 1040
+<ce> Ich habe Nachricht von unseren Verbündeten erhalten,
+<ce> dass das Paket niemals geliefert wurde. Es war äußerst
+<ce> beschämend für mich. Sie hatten erwartet, dass ich
+<ce> jemanden wähle, der zu solch einer Aufgabe fähig wäre.
+<ce> Dass Ihr dennoch an meinen Hof zurückkehrt, zeigt eine
+<ce> gewisse Kühnheit. Ihr erwartet doch wohl nicht wirklich
+<ce> eine Belohnung? Geht jetzt. Verschwindet aus meinem Blickfeld!
+<--->
+<ce> Eure Rückkehr könnte nicht unpassender sein. Gerade eben
+<ce> erfuhr ich von den Boten unserer Verbündeten, dass Ihr das
+<ce> Paket niemals an _dummy_ überbracht habt.
+<ce> Warum habt Ihr mir nicht gesagt, dass Ihr nicht die
+<ce> Fähigkeiten für solch eine Aufgabe besitzt? Hinfort,
+<ce> Ihr unwertes Orkgesindel!
+<--->
+<ce> Ich muss gestehen, ich bewundere Euren Mut, %ra.
+<ce> Wenige würden in den Palast zurückkehren, in der sie eine
+<ce> Aufgabe erhielten, die sie nicht erfüllen konnten. Ja,
+<ce> ich habe bereits gehört, dass Ihr mein Paket nicht zu
+<ce> _dummy_ bringen konntet. Nun, es war wohl zu
+<ce> viel für jemanden mit Eurer begrenzten Erfahrung. Ihr
+<ce> mögt in Unehre, aber in Frieden ziehen.
+
+
+QBN:
+Item _reward_ gold
+Item _package_ small_sack
+
+Person _questgiver_ group Questor
+Person _dummy_ group Local_4.0
+
+Foe _agent1_ is Warrior
+Foe _agent2_ is Knight
+Foe _agent3_ is Archer
+Foe _agent4_ is Mage
+
+Place _location_ remote tavern
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _agents_ 24:00
+Clock _end_ 7.00:00
+
+--	Quest start-up:
+	start timer _timer_
+    start timer _agents_
+	log 1010 step 0
+    get item _package_ 
+    place npc _dummy_ at _location_
+
+_dummyclicked_ task:
+    toting _package_ and _dummy_ clicked
+    give pc _reward_
+    end quest
+
+_agents_ task:
+    pick one of _agentsyes_ _agentsno_
+
+_agentsyes_ task:
+	create foe _agent1_ every 0 minutes 1 times with 100% success 
+    create foe _agent2_ every 0 minutes 1 times with 75% success 
+	create foe _agent3_ every 0 minutes 1 times with 50% success 
+    create foe _agent4_ every 0 minutes 1 times with 30% success 
+    say 1030
+
+_agentsno_ task:
+
+_qgclicked_ task:
+    clicked npc _questgiver_
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_
+    say 1040
+    end quest
+
+_timer_ task:
+    say 1020
+    start timer _end_
+
+_clearclick_ task:
+    when _qgclicked_ and not _timer_
+    clear _qgclicked_ _clearclick_   
+
+_end_ task:
+    end quest

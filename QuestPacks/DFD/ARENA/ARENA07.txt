@@ -1,0 +1,347 @@
+Quest: ARENA07
+DisplayName: Monsterjagd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Einen guten Tag wünsche ich Euch. Ich bedarf Eurer Hilfe.
+<ce> Würdet Ihr für mich ein Monster erschlagen?
+<--->
+<ce> Ich suche jemanden, der für unseren %rt ein Monster
+<ce> erschlagen würde. Nichts könnte einfacher sein. Gebt
+<ce> mir Eure Treue in dieser Sache, und ich werde Euch zu
+<ce> einem reichen Menschen machen. Vielleicht möchtet Ihr,
+<ce> dass ich Euch die Lage genauer beschreibe?
+<--->
+<ce> Willkommen, %pcn, in %cn.
+<ce> Eure Ankunft könnte nicht zu einem besseren Zeitpunkt
+<ce> erfolgen, denn ich sagte meinen Beratern erst gestern
+<ce> Abend, dass ich jemanden brauche, der ein Monster für
+<ce> mich erschlägt. Ihr werdet selbstverständlich großzügig
+<ce> entlohnt. Soll ich Euch mehr darüber erzählen?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Gefahren, diese
+<ce> Aufgabe zu übernehmen, und dies macht Euch wohl nervös.
+<ce> Sehr wohl, %ra. Verzeiht, dass ich Euch nicht zur Tür
+<ce> geleite. Lebt wohl.
+<--->
+<ce> Welch ein Jammer. Ich werde einen anderen Champion
+<ce> finden müssen. Habt einen guten Tag, %pcn.
+<ce> Möge es Euch wohl ergehen.
+<--->
+<ce> Es überrascht mich kaum, dass Ihr dieses Abenteuer
+<ce> verweigert. Junge Leute wie Ihr, %ra, sind oft ohne
+<ce> Ehrgeiz. Möget Ihr anderswo etwas Sinnvolles tun.
+<ce> Geht nun.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte
+<ce> nachzukommen. Möget Ihr sicher reisen und eines Tages
+<ce> nach %cn zurückkehren. Nun geht, ich werde
+<ce> jemand anderen finden, der dem %rt dienen
+<ce> und dabei reich werden will. Lebt wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer stets voller Verpflichtungen ist. Möge Euch
+<ce> das Glück bei Euren Unternehmungen hold sein ...
+<--->
+<ce> Ich sehe, Ihr seid nicht umzustimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, Risiken für Wohlstand
+<ce> und Ruhm einzugehen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr würdet interessiert sein, doch
+<ce> es gibt andere, die begierig darauf sind, ihre Geldbeutel
+<ce> zu füllen. Ich danke Euch, doch ich muss mich nun anderen
+<ce> Angelegenheiten widmen. Gute Reise, möge es Euch wohl ergehen.
+<--->
+<ce> Ihr wollt einer Bitte eines Mitglieds der königlichen
+<ce> Familie von %reg nicht Folge leisten?
+<ce> Fort mit Euch! Ich habe wichtigere Dinge zu bedenken
+<ce> als einen untauglichen %ra Abenteurer.
+<ce> Entfernt Euch!
+
+AcceptQuest:  [1002]
+<ce> Dann sollt Ihr mein Champion sein, %pcn.
+<ce> Mein Geburtstag steht in =timer_ Tagen bevor,
+<ce> und, wie zum Hohn, hat sich =monster1_ in
+<ce> meinen Landen eingefunden, um sich zu nähren.
+<ce> Es hat bereits alle Jäger getötet, die ich
+<ce> entsandt habe, doch man sagt, sein Unterschlupf
+<ce> sei unter dem Namen ___location_ bekannt.
+<ce> Ihr müsst dorthin gehen und das Biest für mich
+<ce> töten. Wenn =monster1_ bis zu meinem
+<ce> Geburtstag am Leben bleibt und mein Volk verschlingt,
+<ce> wird dies nicht nur zahllose Menschenleben kosten,
+<ce> sondern auch die Einnahmen des Festtages ruinieren.
+<ce> Ich biete Euch _reward_ Gold für den Tod dieses Monsters.
+<ce> Seid vorsichtig, %ra, und möge Euch das
+<ce> Glück hold sein.
+<--->
+<ce> Es freut mich, Euch zu meinem Champion zu ernennen,
+<ce> %pcn, doch wahrlich werde ich erst erleichtert
+<ce> sein, wenn diese Angelegenheit hinter uns liegt.
+<ce> =monster1_ hat sich wie eine Seuche über meine
+<ce> Lande gelegt. In der Vergangenheit hat =monster1_
+<ce> sowohl die größten Stadtstaaten als auch die demütigsten
+<ce> Dörfer der Provinz terrorisiert, doch ich will, dass
+<ce> sein Leben hier endet, in seinem Unterschlupf namens
+<ce> ___location_. Tötet es innerhalb von =timer_ Tagen,
+<ce> sonst wird es sich an den Menschen laben, die mein
+<ce> jährliches Fest feiern. Stellt Euch die politische
+<ce> Schmach vor! Für eine Belohnung von _reward_ Gold werden
+<ce> wir sehen, ob Ihr stark genug seid, =monster1_
+<ce> die Stirn zu bieten. Habt Dank, %ra, und möge
+<ce> Euch das Glück hold sein.
+<--->
+<ce> Ausgezeichnet, %pcn, wahrlich, Ihr seid tapfer.
+<ce> Meine Lande werden von einem tödlichen Feind heimgesucht,
+<ce> einem Wesen, das meinen Jägern seit Wochen entkommt.
+<ce> Die Einheimischen nennen es =monster1_, und sein
+<ce> Unterschlupf befindet sich in ___location_.
+<ce> Ich werde Euch _reward_ Gold zahlen, wenn Ihr es findet und
+<ce> tötet, bevor es weiteren Schaden unter meinem Volk
+<ce> anrichtet. Das Monster muss vor Ablauf von =timer_ Tagen
+<ce> tot sein, denn ich halte dann die Hochzeit meines Vetters
+<ce> ab, und ich möchte, dass die Menschen ohne Furcht ihre
+<ce> Häuser verlassen können. Beeilt Euch, hütet Euch selbst,
+<ce> und möge Euch das Glück hold sein, %ra.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+Ist =monster1_ endlich tot? Keine andere Stadt in der Region vermochte dieses Monster zu besiegen, doch dank Euch wird %cn als die Stadt bekannt sein, die =monster1_ erschlug. Ihr habt Eure Belohnung wahrlich verdient, guter %ra. Nehmt sie und geht in Frieden.
+<--->
+Ihr müsst mir nicht einmal sagen, dass das furchtbare ;pmster tot ist. Die Kunde verbreitet sich schnell. Schon werden Balladen geschrieben über den tapferen %ra, der =monster1_ erschlug, den Geißel von %cn. Doch Ruhm allein füllt nicht den Magen, daher sind hier die _reward_ Goldstücke, die ich Euch versprach. Viel Glück und kehrt jederzeit in unsere Stadt zurück.
+<--->
+Noch ehe Ihr ankamet, hörte ich von den Bauern außerhalb der Stadt, dass =monster1_ tot sei, erschlagen von einem tapferen %ra. Ihr habt Euer Gold und einen Platz in der Geschichte von %cn, wenn nicht der ganzen Region, wahrlich verdient. Der %rt und das Volk von %cn danken Euch.
+
+RumorsDuringQuest:   [1005]
+Man munkelt, dass in Himmelsrand eine Seuche ausgebrochen sei.
+<--->
+Meine Tante kehrte gerade aus einem kleinen Dorf an der Grenze zu Elsweyr zurück, das beinahe vollständig von einer Seuche heimgesucht wurde.
+<--->
+Der Prophet, den ich aufsuche, sagt, dass Hammerfall im nächsten Jahr durch eine Seuche verwüstet wird.
+
+RumorsPostSuccess:   [1007]
+Habt Ihr gehört, dass ein %ra Kind das Monster namens =monster1_ erschlagen hat? Es lässt einen glauben, dass alles möglich ist, oder nicht?
+<--->
+Das Monster, das ___questgiver_ plagte, ist endlich tot. Wir sollten auf den Straßen tanzen!
+<--->
+Die besten Jäger der %t konnten =monster1_ nicht töten, also heuerte _questgiver_ jemanden an, der angeblich halb %ra und halb Riese ist – und jetzt ist das Monster tot! Man sagt, Feuer bekämpft man am besten mit Feuer!
+<--->
+Habt Ihr von dem %ra gehört, der das Monster, =monster1_, erschlug?
+Angeblich war dieser %ra ein Halbgott, der Flügel sprießen ließ und davonflog! Dies wurde mir von glaubwürdiger Quelle berichtet.
+<--->
+Alle in der Stadt feiern den Tod von =monster1_. Wir verdanken es einem geheimnisvollen %ra, der nicht einmal seinen Namen hinterließ. Doch wir werden %pg2 niemals vergessen.
+
+QuestorPostsuccess:  [1008]
+<ce> Der Bezwinger von =monster1_!
+<ce> Die Wege in der Gegend von %cn
+<ce> sind sicherer geworden dank Eurer tapferen Tat.
+
+QuestorPostfailure:  [1009]
+<ce> Ich verlangte nicht, dass Ihr mir den Kopf
+<ce> von =monster1_ bringt; ursprünglich
+<ce> hätte ich geglaubt, dass das Monster tot sei.
+<ce> Doch ich habe soeben erfahren, dass ein Bauer
+<ce> direkt vor den Toren meiner Stadt von
+<ce> =monster1_ ermordet wurde. Ich muss
+<ce> jemand anderen entsenden, um meine Lande von
+<ce> dieser Plage zu befreien. Verlasst mich jetzt.
+
+Message: 1010
+%qdt
+ Ich bin auf einer Mission, das furchtbare Monster
+ _monster1_ =monster1_ für
+ _questgiver_ aus ___questgiver_
+ zu erschlagen. Der Unterschlupf von =monster1_
+ soll ___location_ sein, und ich muss
+ das Biest in weniger als =timer Tagen töten.
+
+Message: 1011
+%qdt
+ Ich bin auf einer Mission, das furchtbare Monster
+ _monster2_ =monster1_ für
+ _questgiver_ aus ___questgiver_
+ zu erschlagen. Der Unterschlupf von =monster1_
+ soll ___location_ sein, und ich muss
+ das Biest in weniger als =timer Tagen töten.
+
+Message: 1012
+%qdt
+ Ich bin auf einer Mission, das furchtbare Monster
+ _monster3_ =monster1_ für
+ _questgiver_ aus ___questgiver_
+ zu erschlagen. Der Unterschlupf von =monster1_
+ soll ___location_ sein, und ich muss
+ das Biest in weniger als =timer Tagen töten.
+
+Message: 1013
+%qdt
+ Ich bin auf einer Mission, das furchtbare Monster
+ _monster4_ =monster1_ für
+ _questgiver_ aus ___questgiver_
+ zu erschlagen. Der Unterschlupf von =monster1_
+ soll ___location_ sein, und ich muss
+ das Biest in weniger als =timer Tagen töten.
+
+Message: 1014
+%qdt
+ Ich bin auf einer Mission, das furchtbare Monster
+ _monster5_ =monster1_ für
+ _questgiver_ aus ___questgiver_
+ zu erschlagen. Der Unterschlupf von =monster1_
+ soll ___location_ sein, und ich muss
+ das Biest in weniger als =timer Tagen töten.
+
+Message: 1020
+<ce> Oh, verzeiht mir. =monster1_ ist
+<ce> ein _monster1_. Das schien mir
+<ce> entfallen zu sein. Viel Glück.
+
+Message: 1021
+<ce> Oh, verzeiht mir. =monster1_ ist
+<ce> ein _monster2_. Das schien mir
+<ce> entfallen zu sein. Viel Glück.
+
+Message: 1022
+<ce> Oh, verzeiht mir. =monster1_ ist
+<ce> ein _monster2_. Das schien mir
+<ce> entfallen zu sein. Viel Glück.
+
+Message: 1023
+<ce> Oh, verzeiht mir. =monster1_ ist
+<ce> ein _monster4_. Das schien mir
+<ce> entfallen zu sein. Viel Glück.
+
+Message: 1024
+<ce> Oh, verzeiht mir. =monster1_ ist
+<ce> ein _monster4_. Das schien mir
+<ce> entfallen zu sein. Viel Glück.
+
+Message: 1030
+
+<ce> =monster1_, das schreckliche _monster1_, ist tot.
+
+Message: 1031
+<ce> =monster1_, das schreckliche _monster2_, ist tot.
+
+Message: 1032
+<ce> =monster1_, das schreckliche _monster3_, ist tot.
+
+Message: 1033
+<ce> =monster1_, das schreckliche _monster4_, ist tot.
+
+Message: 1034
+<ce> =monster1_, das schreckliche _monster5_, ist tot.
+
+Message: 1040
+<ce> Es sind mehr als =timer_ Tage vergangen, seitdem
+<ce> Ihr ausgesandt wurdet, um =monster1_
+<ce> zu jagen. Inzwischen muss es sich anderswo
+<ce> niedergelassen haben und setzt sein Gemetzel in
+<ce> einer anderen Stadt von %reg fort.
+
+Message: 1050
+<ce> Ich verlangte nicht, dass Ihr mir den Kopf
+<ce> von =monster1_ bringt; ursprünglich
+<ce> hätte ich geglaubt, dass das Monster tot sei.
+<ce> Doch ich habe soeben erfahren, dass ein Bauer
+<ce> direkt vor den Toren meiner Stadt von
+<ce> =monster1_ ermordet wurde. Ich muss
+<ce> jemand anderen entsenden, um meine Lande von
+<ce> dieser Plage zu befreien. Verlasst mich jetzt.
+<--->
+<ce> Ich sagte Euch, Ihr sollt das Monster =monster1_
+<ce> binnen =timer_ Tagen töten, wenn Ihr Euch erinnert.
+<ce> Ich hatte mehr von einem erfahrenen %ra wie
+<ce> Euch erwartet als von meinen eigenen Jägern.
+<ce> Es scheint jedoch, dass ich mich irrte. Fort mit
+<ce> Euch, Ihr werdet keine Belohnung von mir erhalten.
+<--->
+<ce> Nun, =monster1_ griff meine Feierlichkeiten
+<ce> nicht an, wie ich erwartet hatte, doch nur, weil
+<ce> es sich anderswo in der Region niedergelassen hat.
+<ce> Was Euch betrifft: Ihr könntet nicht einmal eine
+<ce> Goblinlarve erschlagen. Erwartet keine Belohnung
+<ce> von mir. Fort mit Euch, %ra.
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Foe _monster1_ is Gargoyle
+Foe _monster2_ is Giant
+Foe _monster3_ is Dragonling
+Foe _monster4_ is Wereboar
+Foe _monster5_ is Mummy
+
+Place _location_ remote dungeon6
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _end_ 7.00:00
+
+--	Quest start-up:
+	start timer _timer_
+    reveal _location_
+    pick one of _type1_ _type2_ _type3_ _type4_ _type5_
+
+
+_type1_ task:
+    say 1020
+    log 1010 step 0
+    place foe _monster1_ at _location_
+
+_type2_ task:
+    say 1021
+    log 1011 step 0
+    place foe _monster2_ at _location_
+
+ _type3_ task:
+    say 1022
+    log 1012 step 0
+    place foe _monster3_ at _location_
+
+ _type4_ task:
+    say 1023
+    log 1013 step 0
+    place foe _monster4_ at _location_
+
+ _type5_ task:
+    say 1024
+    log 1014 step 0
+    place foe _monster5_ at _location_
+
+_slain_ task:
+    killed 1 _monster1_ saying 1030
+    killed 1 _monster2_ saying 1031
+    killed 1 _monster3_ saying 1032
+    killed 1 _monster4_ saying 1033
+    killed 1 _monster5_ saying 1034
+
+_qgclicked_ task:
+    clicked npc _questgiver_ 
+
+_success_ task:
+    when _qgclicked_ and _slain_ and not _timer_
+    give pc _reward_
+    end quest
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_ and not _success_
+    say 1050
+    end quest
+
+_clearclick_ task:
+    when _qgclicked_ and not _slain_ and not _timer_
+    clear _qgclicked_ _clearclick_     
+
+_timer_ task:
+    say 1040
+    start timer _end_
+
+_end_ task:
+    end quest

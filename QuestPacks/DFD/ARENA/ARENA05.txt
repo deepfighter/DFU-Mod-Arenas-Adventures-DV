@@ -1,0 +1,327 @@
+Quest: ARENA05
+DisplayName: Rückholung für einen Adligen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Einen guten Tag wünsche ich Euch, %pcn.
+<ce> Seid willkommen in %cn. Euer Ruf eilt Euch voraus,
+<ce> und ich bedarf Eurer Talente. Es ist ein Außenstehender,
+<ce> den ich suche, um mir etwas zu beschaffen. Ich verspreche
+<ce> Euch reichen Lohn, solltet Ihr erfolgreich sein.
+<ce> Wollt Ihr mehr erfahren?
+<--->
+<ce> Willkommen in %cn, %pcn.
+<ce> Das Wetter draußen ist wahrlich nicht mein liebstes,
+<ce> doch ich versichere Euch, die Pracht von %cn
+<ce> im hellen Sommerlicht ist unvergleichlich. Doch sei's
+<ce> drum, ich bin froh ob Eures Kommens, denn ich suche
+<ce> jemanden Eures Talents, der mir einen Gegenstand
+<ce> beschaffen kann. Ich verspreche Euch eine angemessene
+<ce> Belohnung in Goldstücken. Erlaubt mir, Euch die
+<ce> Einzelheiten darzulegen.
+<--->
+<ce> Seid gegrüßt in der Stadt %cn.
+<ce> Euer Kommen ward erwartet. Vor wenigen Stunden sprach
+<ce> das Orakel des Palastes von Euch und sagte, allein Ihr
+<ce> könntet etwas von großer Wichtigkeit für mich beschaffen.
+<ce> Wollt Ihr mehr hören?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Gefahren, diese
+<ce> Aufgabe zu übernehmen, und dies macht Euch wohl nervös.
+<ce> Sehr wohl, %ra. Verzeiht, dass ich Euch nicht zur Tür
+<ce> geleite. Lebt wohl.
+<--->
+<ce> Welch ein Jammer. Ich werde einen anderen Champion
+<ce> finden müssen. Habt einen guten Tag, %pcn.
+<ce> Möge es Euch wohl ergehen.
+<--->
+<ce> Es überrascht mich kaum, dass Ihr dieses Abenteuer
+<ce> verweigert. Junge Leute wie Ihr, %ra, sind oft ohne
+<ce> Ehrgeiz. Möget Ihr anderswo etwas Sinnvolles tun.
+<ce> Geht nun.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte
+<ce> nachzukommen. Möget Ihr sicher reisen und eines Tages
+<ce> nach %cn zurückkehren. Nun geht, ich werde
+<ce> jemand anderen finden, der dem %rt dienen
+<ce> und dabei reich werden will. Lebt wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer stets voller Verpflichtungen ist. Möge Euch
+<ce> das Glück bei Euren Unternehmungen hold sein ...
+<--->
+<ce> Ich sehe, Ihr seid nicht umzustimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, Risiken für Wohlstand
+<ce> und Ruhm einzugehen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr würdet interessiert sein, doch
+<ce> es gibt andere, die begierig darauf sind, ihre Geldbeutel
+<ce> zu füllen. Ich danke Euch, doch ich muss mich nun anderen
+<ce> Angelegenheiten widmen. Gute Reise, möge es Euch wohl ergehen.
+<--->
+<ce> Ihr wollt einer Bitte eines Mitglieds der königlichen
+<ce> Familie von %reg nicht Folge leisten?
+<ce> Fort mit Euch! Ich habe wichtigere Dinge zu bedenken
+<ce> als einen untauglichen %ra Abenteurer.
+<ce> Entfernt Euch!
+
+AcceptQuest:  [1002]
+<ce> Dann sollt Ihr mein Champion sein, %pcn.
+<ce> Mein Freund, ich fürchte um die Stabilität dieses
+<ce> Hofes, da die Ambitionen meiner Rivalen groß sind.
+<ce> Sollte mir etwas zustoßen, zittere ich bei dem Gedanken
+<ce> an das Schicksal von %cn. Ihr müsst
+<ce> binnen =timer_ Tagen nach __location_
+<ce> reisen, nach %di und wieder zurück. Ihr werdet
+<ce> _dummy_, einen Gesandten einer %reg
+<ce> freundlich gesinnten Organisation, in _location_
+<ce> finden - %g wird _package_ für Euch haben.
+<ce> Es muss in meinen Händen sein, oder die Konsequenzen
+<ce> werden furchtbar sein. Seid gewarnt, die Feinde von
+<ce> %reg könnten versuchen, Euch aufzuhalten. Solltet Ihr
+<ce> Erfolg haben, werde ich Euch _reward_ Goldstücke zahlen.
+<ce> Seid vorsichtig, %ra, und viel Glück.
+<--->
+<ce> Es freut mich, Euch zu meinem Champion zu ernennen,
+<ce> %pcn, doch wahrlich werde ich erst erleichtert
+<ce> sein, wenn diese Angelegenheit hinter uns liegt.
+<ce> In einem Anflug von Großmut, den ich nun bereue,
+<ce> verlieh ich unseren Verbündeten ein _package_,
+<ce> das, so glaube ich, mehr meiner Stadt als mir gehörte.
+<ce> Ich brauche _package_ schnellstmöglich hier
+<ce> zurück. Unsere Verbündeten haben einen Gesandten,
+<ce> _dummy_, der an einem Ort namens __location_
+<ce> auf Euch wartet, der %di von hier nicht mehr
+<ce> als =timer_ Tagesreisen entfernt liegt.
+<ce> Doch seid gewarnt, ich habe viele Feinde, die mich
+<ce> gerne leiden sehen würden. Es könnte sein, dass
+<ce> Ihr auf Widerstand stoßt. Ich biete Euch
+<ce> _reward_ Goldstücke, wenn _package_
+<ce> rechtzeitig hierher zurückgebracht wird. Ich danke
+<ce> Euch, %ra, und möge Euch das Glück begleiten.
+<--->
+<ce> Ausgezeichnet, %pcn, wahrlich, Ihr seid tapfer.
+<ce> Vor einigen Monden, aus Gründen, die zu tief
+<ce> im Sumpf der Politik verstrickt sind, um sie zu
+<ce> erklären, übergab ich _package_
+<ce> einem der Verbündeten von %reg. Es ist nun
+<ce> von äußerster Wichtigkeit, dass es nach
+<ce> %cn zurückgebracht wird. Wie ich hörte,
+<ce> werdet Ihr _dummy_, einen Gesandten
+<ce> unserer Verbündeten, in __location_ finden.
+<ce> Dies ist eine Reise zu Pferde von =timer Tagen
+<ce> nach %di und wieder zurück. Ob die Gerüchte,
+<ce> dass unsere Feinde _package_ in __location_
+<ce> behalten wollen wahr sind, vermag ich nicht zu
+<ce> sagen. Es könnte jedoch sein, dass Ihr während Eurer
+<ce> Reise auf Widerstand trefft. Ich bin bereit, Euch
+<ce> _reward_ Goldstücke zu bieten, wenn _package_
+<ce> sicher wieder hier im Palast ankommt. Eilet, seid
+<ce> achtsam, und möge Euch das Glück hold sein.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Das Volk von %cn wird nie erfahren,
+<ce> was Ihr für sie getan habt, indem Ihr
+<ce> mein _package_ zurückgebracht
+<ce> habt, doch ich werde es nie vergessen.
+<ce> Nehmt Eure _reward_ Goldstücke und den Dank
+<ce> der königlichen Familie von %reg.
+<--->
+<ce> Ah, Ihr habt mein _package_.
+<ce> Ich gebe zu, ich fürchtete, Ihr würdet nicht
+<ce> rechtzeitig zurückkehren. Ihr habt Euch Eure
+<ce> _reward_ Goldstücke wahrlich verdient, guter
+<ce> %ra. Ich danke Euch.
+<--->
+<ce> Ich bin froh, dass Ihr mein _package_
+<ce> gefunden habt. Ich danke Euch für Eure rechtzeitige
+<ce> Rückkehr und hier die _reward_ Goldstücke, die ich Euch
+<ce> versprach. Ihr werdet am Hofe nicht so bald vergessen werden.
+
+RumorsDuringQuest:   [1005]
+Die diesjährige Ernte scheint die beste zu sein, die wir je hatten.
+<--->
+Die Ernte sieht in diesem Jahr prächtig aus. Es wird wohl viel zu feiern geben.
+<--->
+Die gute Nachricht ist, dass die Ernte dieses Jahr so gut ausfällt wie die des letzten Jahres.
+
+RumorsPostSuccess:   [1007]
+Es scheint, als habe es einen kleinen Skandal im Palast von ___questgiver_ gegeben. Ich kenne die Einzelheiten nicht, aber man munkelt, dass _questgiver_ beinahe wegen eines verlorenen _package_ abgesetzt wurde. Nun ist alles wieder in Ordnung.
+<--->
+Ich glaube, _questgiver_ steht auf dünnem Eis. Angeblich hat jemand entdeckt, dass  _package_ fehlt, und hat eine große Sache daraus gemacht. Zum Glück konnte %g es wieder vorzeigen. Man muss sagen, dieser Herrscher hat wahrlich Feinde.
+
+<--->
+Wisst Ihr, dass die Hälfte des Ältestenrats von __location_ tot ist, dank eines %ra, der ein _package_ von ___questgiver_ brachte, das ihre Mitschuld an einem Verrat bewies? Das war aufregend!
+<--->
+Im Palast von __location_ ist wieder Ruhe eingekehrt, dank %god. Eine Zeit lang sah es aus, als würde der Fürst und seine gesamte Familie wegen des fehlenden _package_ hingerichtet werden. Zum Glück wurde es zurückgebracht.
+<--->
+Dank %god wurde _package_ gefunden. _questgiver_ war beinahe hingerichtet worden. Habt Ihr es nicht gehört?
+
+QuestorPostsuccess:  [1008]
+<ce> Gut, Euch zu sehen, %pcn.
+<ce> Ich sprach gerade mit einem Vetter über
+<ce> Euch und wie verlässlich Ihr seid.
+
+QuestorPostfailure:  [1009]
+<ce> Mein _package_ ist nicht rechtzeitig eingetroffen,
+<ce> daher werdet Ihr Euer _reward_ Goldstücle nicht erhalten.
+<ce> Ihr dürft in Frieden gehen. Ich hatte erwogen, Euch die Adern
+<ce> aus dem Leibe zu reißen, weil Ihr mir diese Unannehmlichkeit
+<ce> bereitet habt, aber ich habe es mir anders überlegt. Ich bin
+<ce> schließlich ein gerechter Herrscher.
+
+Message: 1010
+%qdt
+ Ich bin von _questgiver_ aus ___questgiver_
+ beauftragt worden, _package_ aus __location_
+ wiederzuholen. _dummy_, ein Gesandter Einer
+ der Verbündeten von %reg, wird in _location_
+ auf mich warten. Ich muss _package_ innerhalb
+ von =timer_ Tagen an _questgiver_ überbringen.
+
+Message: 1020
+<ce> Ihr seid wegen _package_ hier, nicht wahr?
+<ce> Hier ist es. Sagt _questgiver_, ich danke ihm.
+<--->
+<ce> Hier ist _package_, das _questgiver_
+<ce> benötigt. Ihr solltet Euch nun auf den Weg zurück
+<ce> zu %g2 machen.
+<--->
+<ce> _questgiver_ hat Euch wegen _package_
+<ce> geschickt? Verdammt, ich hätte es gebrauchen können.
+<ce> Nun gut, beeilt Euch und bringt es zurück zu %g2.
+
+Message: 1030
+<ce> Diese Krieger wurden offenkundig von den
+<ce> Feinden von %reg gesandt,
+<ce> um Euch aufzuhalten, denn sie tragen die
+<ce> Farben ihres Hauses mit Stolz.
+<--->
+<ce> Die Gruppe, die Euch den Weg versperrt, steht
+<ce> im Dienste eines anderen. Es scheint offensichtlich,
+<ce> dass einer der Feinde von %reg ihr
+<ce> Gebieter ist, wenn sie wahrhaft wünschen,
+<ce> dass Eure Aufgabe scheitert.
+<--->
+<ce> Die Farben, die diese feindliche Gruppe trägt,
+<ce> gehören den Feinden von %reg. Es scheint,
+<ce> dass die Gerüchte über ihr Interesse, Eure
+<ce> Aufgabe zu vereiteln, wahr sind.
+<--->
+<ce> Eine gelegentlich umherziehende Bande ist
+<ce> kein ungewöhnlicher Anblick, doch eine, die
+<ce> die Farben der Feinde von %reg
+<ce> trägt, ist wahrlich seltsam.
+<ce> Es ist offensichtlich, dass sie Euch wirklich
+<ce> tot sehen wollen.
+<--->
+<ce> Man könnte dies für ein zufälliges Zusammentreffen
+<ce> mit einem feindlichen Krieger halten, doch nicht,
+<ce> wenn er die Farben der Feinde von %reg
+<ce> trägt. Die Gerüchte über ihre Einmischung in Eure
+<ce> Aufgabe sind offenbar wahr.
+
+Message: 1040
+<ce> _questgiver_ sollte _package_
+<ce> inzwischen erhalten haben. Da Ihr keine Goldmünze
+<ce> mehr dafür bekommen werdet, werft Ihr es weg.
+
+Message: 1050
+<ce> Ich dachte, wir hätten eine Abmachung. _reward_ Goldstücke
+<ce> für _package_, das Ihr von _dummy_
+<ce> in =timer_ Tagen zurückbringen solltet. Es scheint jedoch, dass
+<ce> Ihr unfähig seid, Euren Teil der Vereinbarung zu erfüllen. Ich
+<ce> werde Euch nicht damit beleidigen, indem ich erkläre, weshalb
+<ce> Ihr keine Belohnung erhalten werdet. Einen guten Tag noch,
+<ce> junger %ra.
+<--->
+<ce> Mein _package_ ist nicht rechtzeitig eingetroffen,
+<ce> daher werdet Ihr Euer _reward_ Goldstücle nicht erhalten.
+<ce> Ihr dürft in Frieden gehen. Ich hatte erwogen, Euch die Adern
+<ce> aus dem Leibe zu reißen, weil Ihr mir diese Unannehmlichkeit
+<ce> bereitet habt, aber ich habe es mir anders überlegt. Ich bin
+<ce> schließlich ein gerechter Herrscher.
+<--->
+<ce> Fluch über Euch, Bastardkind einer %ra Hure!
+<ce> Ihr habt keine Ahnung, welches Unheil Ihr angerichtet habt,
+<ce> weil Ihr mein _package_ nicht rechtzeitig überbracht
+<ce> habt. Wäre ich von der gleichen Art Edelmann wie mein Vorgänger,
+<ce> so hätte ich Euch die Lungen herausnehmen und sie verspeisen
+<ce> lassen. Verlasst mich augenblicklich, ehe ich versucht bin,
+<ce> dies dennoch zu tun.
+
+
+QBN:
+Item _reward_ gold
+Item _package_ magic_item
+
+Person _questgiver_ group Questor
+Person _dummy_ group Local_3.0
+
+Foe _agent1_ is Warrior
+Foe _agent2_ is Knight
+Foe _agent3_ is Archer
+Foe _agent4_ is Mage
+
+Place _location_ remote random
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _agents_ 24:00
+Clock _end_ 7.00:00
+
+
+--	Quest start-up:
+	start timer _timer_
+    start timer _agents_
+	log 1010 step 0
+    place npc _dummy_ at _location_
+
+_dummyclicked_ task:
+    clicked npc _dummy_
+
+_retrieval_ task:
+    when _dummyclicked_
+    say 1020
+    get item _package_     
+ 
+_agents_ task:
+    pick one of _agentsyes_ _agentsno_
+
+_agentsyes_ task:
+	create foe _agent1_ every 0 minutes 1 times with 100% success 
+    create foe _agent2_ every 0 minutes 1 times with 75% success 
+	create foe _agent3_ every 0 minutes 1 times with 50% success 
+    create foe _agent4_ every 0 minutes 1 times with 30% success 
+    say 1030
+
+_agentsno_ task:
+
+ _success_ task:
+     toting _package_ and _questgiver_ clicked
+     give pc _reward_
+     end quest
+
+_qgclicked_ task:
+    clicked npc _questgiver_
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_ and not _success_
+    say 1050
+    end quest
+
+_clearclick_ task:
+    when _qgclicked_ and not _timer_
+    clear _qgclicked_ _clearclick_   
+
+_timer_ task:
+    say 1040
+    take _package_ from pc
+    start timer _end_
+
+_end_ task:
+    end quest

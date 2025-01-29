@@ -1,0 +1,162 @@
+Quest: ARENA03
+DisplayName: Eskorte für einen Gemeinen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ihr seid genau der rechte %ra, den ich suche,
+<ce> um meinen Vetter sicher durch %reg zu geleiten.
+<ce> Natürlich werdet Ihr dafür entlohnt.
+<ce> Wollt Ihr mir helfen?
+<--->
+<ce> Einen guten Tag wünsche ich. Ich habe ein
+<ce> kleines Problem, von dem ich hoffe, dass Ihr es
+<ce> lösen könnt. Ein Verwandter von mir muss an einen
+<ce> Ort hier in %reg begleitet werden.
+<ce> Die übliche Bezahlung in Gold, versteht sich.
+<ce> Habt Ihr Zeit, %ra?
+<--->
+<ce> Verzeiht, dass ich Euch belästige, doch ich hoffte,
+<ce> Ihr würdet %cn ohnehin bald verlassen.
+<ce> Ihr müsst wissen, mein Vetter braucht eine Eskorte
+<ce> aus der Stadt. Ich würde es selbst tun, doch mein
+<ce> Schwertarm ist verletzt, und ich könnte uns im Falle
+<ce> von Ärger nicht verteidigen.
+<ce>
+<ce> Wollt Ihr meinen Vetter begleiten?
+
+RefuseQuest:  [1001]
+<ce> Ihr wollt es nicht einmal erwägen, ja?
+<ce> Nun, das war wohl zu erwarten. Man
+<ce> hat mir schon immer gesagt, dass ein
+<ce> gewöhnlicher %ra faul, dumm und
+<ce> übelriechend wie Orkdung sei. Nichts
+<ce> für Ungut.
+<--->
+<ce> Ich verstehe. Dennoch danke. Aber,
+<ce> wenn Ihr jemandem erzählt, was ich
+<ce> Euch gerade gesagt habe, reiß ich Euch
+<ce> durch den Hals die Zähne aus.
+<ce> Einen schönen Tag noch.
+<--->
+<ce> Wirklich? Ihr wollt mir nicht helfen?
+<ce> Dann tut mir einen Gefallen: lasst
+<ce> niemanden wissen, worüber wir gesprochen
+<ce> haben. Lebt wohl.
+
+AcceptQuest:  [1002]
+<ce> Ich danke Euch, %pcn. Mein Herz ist nun leichter.
+<ce> Ich weiß, dass dies vermutlich ein Umweg für Euch ist,
+<ce> doch wenn Ihr _dummy_ innerhalb von =timer_ Tagen
+<ce> nach __location_ bringt, seid Ihr um _reward_ Gold
+<ce> reicher. Mein Kontakt _contact_ wird die Bezahlung
+<ce> in _location_ sicherstellen. Möge Euch das Glück hold sein.
+<--->
+<ce> %god, die guten Geister müssen Euch wahrlich
+<ce> geschickt haben. Aus geschäftlichen Gründen muss mein
+<ce> Vetter, _dummy_, nach __location_ gelangen,
+<ce> und das binnen =timer_ Tagen. Ich hatte ein paar Schwertkämpfer
+<ce> angeheuert, um %g2 dorthin zu bringen, aber sie wurden vor ein
+<ce> paar Tagen tot aufgefunden, von Ork-Räubern in Goblin-Häppchen
+<ce> zerhackt. Mein Kontakt _contact_ in _location_ sollte
+<ce> Euch _reward_ Gold zahlen. Dieses Gold gehört Euch, wenn Ihr ihren
+<ce> Platz einnehmt. Ich zähle auf Euch, %pcn – enttäuscht mich nicht.
+<--->
+<ce> Ihr seid mein Retter, guter %ra.
+<ce> Ein Freund von mir in _location_, _contact_,
+<ce> ist bereit, bis zu _reward_ Goldstücke zu zahlen, wenn Ihr meinen
+<ce> Vetter sicher nach __location_ bringt. Gute Reise,
+<ce> _dummy_, und viel Glück.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Gut, Euch zu sehen, _dummy_. Ich sehe, dass %pcn
+<ce> Euch gut vor den Ärgernissen von %reg geschützt hat und
+<ce> sich die _reward_ Goldstücke wahrlich verdient hat.
+<ce> Lebt wohl, mächtiger %ra.
+<--->
+<ce> Einen guten Tag Euch, _dummy_, und Euch, %ra.
+<ce> Ich bin erfreut, dass Ihr Euch so gut um den Vetter des
+<ce> _questgiver_ gekümmert habt. Eure _reward_ Goldstücke
+<ce> sind wohlverdient. Lebt wohl und möge das Glück Euch begleiten.
+<--->
+<ce> Bemerkenswerte Arbeit, %ra. Ich wüsste nicht,
+<ce> ob ich so lange mit _dummy_ ausgehalten hätte. Doch
+<ce> ich gestehe, der Vetter von _questgiver_ hat mich
+<ce> schon immer sehr genervt. Hier sind Eure _reward_ Gold.
+<ce> Lebt wohl.
+
+RumorsDuringQuest:   [1005]
+Fragt jemand anderen mit einem besseren Ohr.
+<--->
+Ich schätze, es geht zu wie gewohnt in %cn.
+<--->
+Vielleicht gibt es anderswo in %reg etwas Spannendes, aber nicht hier in %cn.
+
+QuestorPostsuccess:  [1008]
+<ce> %pcn, erinnert Ihr Euch an meinen Vetter _dummy_?
+<ce> Nun, %g sendet Euch seinen Dank.
+
+QuestorPostfailure:  [1009]
+<ce> Ich habe Albträume, %pcn. _dummy_ hat
+<ce> contact_ nie erreicht. Wahrscheinlich von
+<ce> wilden Tieren verschlungen – dank Eurer Unfähigkeit.
+
+Message: 1010
+%qdt
+ _questgiver_ in ___questgiver_ hat
+ mich beauftragt, %g3 Vetter, _dummy_,
+ nach _location_ in __location_
+ zu eskortieren. Ich muss %g2 zu _contact_
+ bringen, und das binnen =timer_ Tagen.
+
+Message: 1020
+<ce> _dummy_ spricht:
+<ce> „Hört, ich kenne den Weg von hier.
+<ce> Danke für Eure Hilfe, %pcn.“
+<ce>
+<ce> _dummy_ eilt davon.
+<--->
+<ce> „Ich weiß nicht einmal, warum ich
+<ce> überhaupt eine Eskorte brauchte.“
+<ce>
+<ce> _dummy_ winkt Euch zum Abschied und geht,
+<ce> überzeugt davon, den Rest des Weges alleine zu schaffen.
+<--->
+<ce> _dummy_ sagt, %g wisse den Weg nach
+<ce> _location_ in __location_ von
+<ce> hier aus und verlässt Euch, indem
+<ce> %g in Richtung %di davonzieht.
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+Person _dummy_ group Resident1
+Person _contact_ group Innkeeper
+
+Place _location_ remote random
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	start timer _timer_
+	log 1010 step 0
+    place npc _contact_ at _location_
+    add _dummy_ face
+
+_contactclicked_ task:
+    clicked npc _contact_
+
+_escort_ task:
+    when _contactclicked_
+    give pc _reward_
+    end quest
+    
+_timer_ task:
+    say 1020
+    end quest

@@ -1,0 +1,324 @@
+Quest: ARENA09
+DisplayName: Rettung eines Verwandten
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ah, Ihr seid %pcn. Ich will mit Euch reden,
+<ce> denn meine Stadt braucht Hilfe. Wir müssen einen
+<ce> Verwandten von mir retten. Ich habe gehört, Ihr
+<ce> habt genug Erfahrung. Seid Ihr interessiert?
+<--->
+<ce> Ich heiße Euch willkommen in unserer Stadt,
+<ce> %pcn. Ich brauche eine Person, die jemanden
+<ce> retten kann, der mir nahe steht und gefangen in
+<ce> einem schrecklichen Kerker gehalten wird. Zum
+<ce> Dank werdet Ihr über Eure gierigsten Träume
+<ce> hinaus belohnt werden. Haben wir einen Handel?
+<--->
+<ce> Ich hoffe, Ihr sucht Arbeit, denn ich muss jemanden
+<ce> finden, der die Aufgabe richtig erledigen kann. Ich
+<ce> bin ein großzügiger Edelmann, und Ihr werdet mehr
+<ce> als gerecht bezahlt, wenn Ihr einen Verwandten von
+<ce> mir rettet. Werdet Ihr mir helfen?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Gefahren, diese
+<ce> Aufgabe zu übernehmen, und dies macht Euch wohl nervös.
+<ce> Sehr wohl, %ra. Verzeiht, dass ich Euch nicht zur Tür
+<ce> geleite. Lebt wohl.
+<--->
+<ce> Welch ein Jammer. Ich werde einen anderen Champion
+<ce> finden müssen. Habt einen guten Tag, %pcn.
+<ce> Möge es Euch wohl ergehen.
+<--->
+<ce> Es überrascht mich kaum, dass Ihr dieses Abenteuer
+<ce> verweigert. Junge Leute wie Ihr, %ra, sind oft ohne
+<ce> Ehrgeiz. Möget Ihr anderswo etwas Sinnvolles tun.
+<ce> Geht nun.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte
+<ce> nachzukommen. Möget Ihr sicher reisen und eines Tages
+<ce> nach %cn zurückkehren. Nun geht, ich werde
+<ce> jemand anderen finden, der dem %rt dienen
+<ce> und dabei reich werden will. Lebt wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer stets voller Verpflichtungen ist. Möge Euch
+<ce> das Glück bei Euren Unternehmungen hold sein ...
+<--->
+<ce> Ich sehe, Ihr seid nicht umzustimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, Risiken für Wohlstand
+<ce> und Ruhm einzugehen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr würdet interessiert sein, doch
+<ce> es gibt andere, die begierig darauf sind, ihre Geldbeutel
+<ce> zu füllen. Ich danke Euch, doch ich muss mich nun anderen
+<ce> Angelegenheiten widmen. Gute Reise, möge es Euch wohl ergehen.
+<--->
+<ce> Ihr wollt einer Bitte eines Mitglieds der königlichen
+<ce> Familie von %reg nicht Folge leisten?
+<ce> Fort mit Euch! Ich habe wichtigere Dinge zu bedenken
+<ce> als einen untauglichen %ra Abenteurer.
+<ce> Entfernt Euch!
+
+AcceptQuest:  [1002]
+<ce> Ein schreckliches Schicksal hat _dummy_,
+<ce> einen nahen Verwandten, ereilt. Ich glaube,
+<ce> %g wurde von einem der Feinde von %reg
+<ce> ergriffen und in ein Verlies in der Region
+<ce> gebracht. Der Ort trägt den Namen ___location_.
+<ce> Solltet Ihr meinen Verwandten retten, werde ich
+<ce> Euch mit _reward_ Goldstücken belohnen. Doch seid
+<ce> gewarnt: Ich bin sicher, dass _dummy_
+<ce> Entführer versuchen werden, Euch aufzuhalten.
+<ce> Ihr müsst %g2 zurückbringen, bevor =timer_ Tage
+<ce> vergangen sind, sonst wird mein Volk %g3 Abwesenheit
+<ce> bemerken. Das kann ich nicht zulassen. Eilt, und
+<ce> möge das Glück mit Euch sein!
+<--->
+<ce> _dummy_, das Kind meines geliebten Vettern,
+<ce> eine sanfte Seele, die nicht an die Grausamkeiten
+<ce> der Welt gewöhnt ist, ist verschwunden. Ich weiß,
+<ce> dass die Kräfte einer benachbarten Region dafür
+<ce> verantwortlich sind, und mein armer Verwandter
+<ce> befindet sich wahrscheinlich in ___location_,
+<ce> einem Verlies in dieser Region. Dieser Vorfall
+<ce> hätte zu keinem schlechteren Zeitpunkt geschehen
+<ce> können. Ihr seht, %g soll in =timer_ Tagen einen
+<ce> wichtigen politischen Verbündeten heiraten. Ich
+<ce> muss _dummy_ bis dahin zurückholen, sonst
+<ce> wird Chaos ausbrechen. Es wird nicht leicht für
+<ce> Euch sein, rechtzeitig zurückzukehren, denn
+<ce> selbst wenn meine Feinde nichts von meinen
+<ce> Rettungsabsichten wissen, ist ___location_
+<ce> berüchtigt für seine starke Verteidigung.
+<ce> Ihr werdet mit _reward_ Goldstücke für die sichere
+<ce> Rückkehr des Kindes belohnt. Möge Akatosh Euch
+<ce> Geschwindigkeit verleihen, %ra.
+<--->
+<ce> _dummy_, das Kind meines Vettern, das
+<ce> seit Tagen vermisst wird, wurde endlich in der
+<ce> höllischen Grube namens ___location_
+<ce> gefunden. Ich glaube, %g ist dort der Gefangene
+<ce> eines meiner Rivalen. Ich brauche Euch, damit
+<ce> Ihr all Eure Fähigkeiten einsetzt, um die Rettung
+<ce> in nicht mehr als =timer_ Tagen zu vollenden. Danach
+<ce> werde ich jemand anderen schicken, und Eure Belohnung
+<ce> von _reward_ Gold wird verfallen. Ich nehme an, Ihr
+<ce> erkennt die Stärke meines Rivalen und glaubt, dass
+<ce> Ihr dazu in der Lage seid? Natürlich tut Ihr das.
+<ce> Rettet _dummy_, %ra.
+<ce> Mögen die Göttlichen mit Euch sein.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> _dummy_, du geliebtes Kind meines Vettern,
+<ce> endlich befreit von den Feinden von %reg.
+<ce> Guter %pcf, Ihr habt mein Herz wahrlich
+<ce> erfreut. Hier sind _reward_ Goldstücke, wie ich
+<ce> versprochen habe. Möge %god auf Euch lächeln
+<ce> und Euch Glück gewähren.
+<--->
+<ce> Ihr habt das Kind meines Vettern aus den Händen
+<ce> der Feinde von %reg gerettet, und meine
+<ce> Dankbarkeit ist groß. Nehmt bitte die _reward_ Goldstücke
+<ce> als Zeichen meiner Verpflichtung Euch gegenüber an.
+<ce> Viel Glück auf Euren Reisen. Man wird sich in
+<ce> %cn an Euch erinnern.
+<--->
+<ce> Mein Herz ist voller Dankbarkeit. Ich fürchtete,
+<ce> ich würde das Kind meines Vetters nie wieder sehen.
+<ce> Zusätzlich zu Eurem Lohn von _reward_ Goldstücken
+<ce> habe ich meine Schreiber angewiesen, Euch in die
+<ce> Chroniken von %cn einzutragen, damit Ihr
+<ce> niemals vergessen werdet. Gesegnet seit Ihr,
+<ce> guter %ra.
+
+RumorsDuringQuest:   [1005]
+Ich habe gehört, dass ein Dorfherr seinen Schutzgeist erzürnt hat. Der örtliche Schamane prophezeit eine Seuche, die binnen eines Monats die ganze Provinz heimsuchen wird.
+<--->
+Man sagt, Morrowind sei dazu verdammt, noch dieses oder nächstes Jahr an Seuchen und Pestilenz zugrunde zu gehen. Meiner Meinung nach: Kein großer Verlust. 
+<--->
+Einige meiner Freunde machten sich auf die Suche nach dem Stab des Magnus, doch sie sind verschwunden. Die Narren.
+
+RumorsPostSuccess:   [1007]
+Wusstet Ihr, dass die Feinde von %reg das Kind des Vetters von _questgiver_ entführt haben? _dummy_ ist nun zurück in ___questgiver_, aber das Kind war wochenlang verschwunden! Könnt Ihr glauben, dass sie dies geheim gehalten haben?
+<--->
+Großer Skandal am Hofe, junger %ra. Es scheint, dass ein naher Verwandter des Herrschers von ___questgiver_ entführt wurde, vielleicht für Wochen, und _questgiver_ tat nichts, außer einen Söldner hinter dem Kind herzuschicken. Könnt Ihr Euch das vorstellen?
+<--->
+Anscheinend ist des Herrschers Vetter oder dessen Kind nach ___questgiver_ aus ___location_, einem Gesundheitsort auf dem Land zurückgekehrt. Man sagt, der Verwandte habe viel Gewicht verloren. Das ist wohl gut, nehme ich an.
+<--->
+Ein %ra hat das Kind des Vetters von _questgiver_ aus einem schrecklichen Ort namens ___location_ gerettet. Niemand in der Stadt hatte bemerkt, dass _dummy_ fort war, geschweige denn, dass es von den Feinden von %reg entführt worden war. Seltsam, nicht wahr?
+<--->
+Hört her. Ein Verwandter der Adelsfamilie von ___questgiver_ wurde von den Feinden von %reg entführt und in ___location_ gefangen gehalten. Und was tut der Herrscher? Er befiehlt einem armen, einfältigen %ra Kind, den Verwandten zurückzuholen. Der Palast ist in Aufruhr.
+
+QuestorPostsuccess:  [1008]
+<ce> Mein edles Geschlecht soll niemals vergessen,
+<ce> wie tapfer Ihr _dummy_ gerettet habt.
+<ce> Fragt, und ich werde antworten.
+
+QuestorPostfailure:  [1009]
+<ce> Als ich meinen teuren _dummy_ aus
+<ce> der Wildnis zu den Stadttoren kommen sah,
+<ce> eilte ich, um zu fragen, wo Ihr seid, Ihr,
+<ce> der %g2 gerettet habt. Stellt Euch mein
+<ce> Erstaunen vor, als %g sagte, %g hätte Euch
+<ce> niemals gesehen, geschweige denn dass er
+<ce> von Euch gerettet worden sei. Das bedeutet
+<ce> Auftragsversagen, junger %ra.
+<ce> Erbärmlich.
+
+Message: 1010
+%qdt
+ Ich bin von _questgiver_, einem Adligen
+ aus dem Palast von ___questgiver_,
+ beauftragt worden, _dummy_ zu retten,
+ der in ___location_ gefangen gehalten
+ wird. Ich muss %g2 nach ___questgiver_
+ innerhalb von =timer Tagen bringen, um die
+ Belohnung von _reward_ Goldstücken zu erhalten.
+
+Message: 1020
+<ce> _dummy_ dankt Euch für Eure Hilfe
+<ce> und verlässt Euch, da %g meint, alleine
+<ce> eine bessere Chance zu haben, nach
+<ce> ___questgiver_ zu gelangen.
+
+Message: 1025
+<ce> Es sind mehr als =timer_ Tage vergangen,
+<ce> seit Ihr beauftragt wurdet, _dummy_
+<ce> aus ___location_ zu retten.
+<ce> Nun ist das Kind von _questgiver_'s
+<ce> Vetter wohl tot, verloren oder an einen
+<ce> anderen Ort gebracht worden.
+
+Message: 1030
+<ce> Ah, gut, dass ich Euch wiedersehe, %pcn.
+<ce> Geht es Euch wohl? Mein lieber _dummy_
+<ce> ist dankbar für die geringe Hilfe, die ihr
+<ce> %g2 gabt, um aus ___location_ zu entkommen.
+<ce> Ihr wisst ja, %g ist erst vor wenigen
+<ce> Stunden in meinen Palast zurückgekehrt.
+<ce> Hättet Ihr das Kind meines Vetters selbst
+<ce> zurückgebracht, so hätte ich Euch
+<ce> Euren Lohn gegeben. So aber wäre das
+<ce> unsinnig. Lebt wohl.
+<--->
+<ce> Ein seltsamer Rettungsversuch. Das Kind
+<ce> meines Vetters kam vor kurzem an, abgezehrt
+<ce> und zerlumpt von einer langen Reise zu Fuß.
+<ce> Ich kann nicht sagen, dass Ihr nichts getan
+<ce> habt, um _dummy_ zu retten, doch
+<ce> offenbar nicht genug, um Euch Euren Lohn
+<ce> zu verdienen. Nun schert Euch fort.
+<--->
+<ce> Als ich meinen teuren _dummy_ aus
+<ce> der Wildnis zu den Stadttoren kommen sah,
+<ce> eilte ich, um zu fragen, wo Ihr seid, Ihr,
+<ce> der %g2 gerettet habt. Stellt Euch mein
+<ce> Erstaunen vor, als %g sagte, %g hätte Euch
+<ce> niemals gesehen, geschweige denn dass er
+<ce> von Euch gerettet worden sei. Das bedeutet
+<ce> Auftragsversagen, junger %ra.
+<ce> Erbärmlich.
+
+Message: 1040
+<ce> %oth, ein Retter von _questgiver_!
+<ce> Eilt, ich muss so bald wie möglich nach
+<ce> ___questgiver_ heimkehren!
+
+Message: 1050
+<ce> Diese Krieger wurden offenkundig von den
+<ce> Feinden von %reg gesandt,
+<ce> um Euch aufzuhalten, denn sie tragen die
+<ce> Farben ihres Hauses mit Stolz.
+<--->
+<ce> Die Gruppe, die Euch den Weg versperrt, steht
+<ce> im Dienste eines anderen. Es scheint offensichtlich,
+<ce> dass einer der Feinde von %reg ihr
+<ce> Gebieter ist, wenn sie wahrhaft wünschen,
+<ce> dass Eure Aufgabe scheitert.
+<--->
+<ce> Die Farben, die diese feindliche Gruppe trägt,
+<ce> gehören den Feinden von %reg. Es scheint,
+<ce> dass die Gerüchte über ihr Interesse, Eure
+<ce> Aufgabe zu vereiteln, wahr sind.
+<--->
+<ce> Eine gelegentlich umherziehende Bande ist
+<ce> kein ungewöhnlicher Anblick, doch eine, die
+<ce> die Farben der Feinde von %reg
+<ce> trägt, ist wahrlich seltsam.
+<ce> Es ist offensichtlich, dass sie Euch wirklich
+<ce> tot sehen wollen.
+<--->
+<ce> Man könnte dies für ein zufälliges Zusammentreffen
+<ce> mit einem feindlichen Krieger halten, doch nicht,
+<ce> wenn er die Farben der Feinde von %reg
+<ce> trägt. Die Gerüchte über ihre Einmischung in Eure
+<ce> Aufgabe sind offenbar wahr.
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+Person _dummy_ group Banker
+
+Foe _agent1_ is Knight
+Foe _agent2_ is Knight
+
+Place _location_ remote dungeon2
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _end_ 7.00:00
+
+--	Quest start-up:
+    log 1010 step 0
+	start timer _timer_
+    reveal _location_
+    place npc _dummy_ at _location_
+
+_dummyclicked_ task:
+    clicked npc _dummy_ say 1040
+    add _dummy_ face
+    hide npc _dummy_
+
+_attack_ task:
+    when _dummyclicked_
+    create foe _agent1_ every 60 minutes 2 times with 100% success msg 1050
+    create foe _agent2_ every 60 minutes 2 times with 100% success    
+
+_qgclicked_ task:
+    clicked npc _questgiver_ 
+
+_success_ task:
+    when _qgclicked_ and _dummyclicked_ and not _timer_
+    give pc _reward_
+    end quest
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_ and not _success_
+    say 1030
+    end quest
+
+_clearclick_ task:
+    when _qgclicked_ and not _dummyclicked_ and not _timer_
+    clear _qgclicked_ _clearclick_     
+
+_timer_ task:
+    start timer _end_
+
+_fail1_ task:
+    when _timer_ and not _dummyclicked_
+    say 1025
+
+_fail2_ task:
+    when _timer_ and _dummyclicked_
+    drop _dummy_ face
+    say 1020
+
+_end_ task:
+    end quest

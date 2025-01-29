@@ -1,0 +1,175 @@
+Quest: ARENA02
+DisplayName: Rückholung für einen Gemeinen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ihr habt ein freundliches Gesicht, %ra,
+<ce> und ich bedarf eines Freundes. Ich habe
+<ce> etwas verliehen und benötige es zurück.
+<ce> Würdet Ihr es für mich holen?
+<--->
+<ce> Ich benötige Hilfe, junger %ra. Ich suche
+<ce> jemanden, der diskret etwas holen und
+<ce> hierher bringen kann. Leider ist es mir
+<ce> selbst unmöglich, den Gegenstand zu holen.
+<ce> Wollt Ihr mir helfen? Ihr werdet entsprechend
+<ce> entlohnt.
+<--->
+<ce> Guter %ra, falls Ihr Gold benötigt,
+<ce> höret mich an. Es gibt eine gewisse
+<ce> Person, die etwas von meinem Lehnsherren
+<ce> hat. Würdet Ihr es für mich holen? Ihr
+<ce> hättet meine Dankbarkeit und, wie gesagt,
+<ce> Gold.
+
+RefuseQuest:  [1001]
+<ce> Ihr wollt es nicht einmal erwägen, ja?
+<ce> Nun, das war wohl zu erwarten. Man
+<ce> hat mir schon immer gesagt, dass ein
+<ce> gewöhnlicher %ra faul, dumm und
+<ce> übelriechend wie Orkdung sei. Nichts
+<ce> für Ungut.
+<--->
+<ce> Ich verstehe. Dennoch danke. Aber,
+<ce> wenn Ihr jemandem erzählt, was ich
+<ce> Euch gerade gesagt habe, reiß ich Euch
+<ce> durch den Hals die Zähne aus.
+<ce> Einen schönen Tag noch.
+<--->
+<ce> Wirklich? Ihr wollt mir nicht helfen?
+<ce> Dann tut mir einen Gefallen: lasst
+<ce> niemanden wissen, worüber wir gesprochen
+<ce> haben. Lebt wohl.
+
+AcceptQuest:  [1002]
+<ce> Habt Dank, %pcn. Mein Herz ist erleichtert.
+<ce> Ich habe ein Buch von sentimentalem Wert an
+<ce> _dummy_ in __location_ verliehen
+<ce> und benötige es nun zurück. Ich wäre glücklich,
+<ce> Euch _reward_ Goldstücke für die sichere Rückgabe
+<ce> zu geben, doch ich muss _package_
+<ce> in =timer_ Tagen oder weniger zurückhaben.
+<ce> Viel Glück, guter %ra.
+<--->
+<ce> %god, die guten Geister müssen Euch wahrlich
+<ce> geschickt haben. Wie gesagt, ich muss ein Buch
+<ce> namens package von meinem Beauftragten
+<ce> in __location_ erhalten. Fragt dort nach
+<ce> _dummy_. Sollte ich es nicht in =timer_ Tagen
+<ce> haben, verliere ich viel Geld. Ich werde Euch
+<ce> _reward_ Goldstücke zahlen, falls Ihr das Buch
+<ce> rechtzeitig bringt. Ich zähle auf Euch, %pcn,
+<ce> enttäuscht mich nicht.
+<--->
+<ce> Ihr seid mein Retter, guter %ra.
+<ce> Ich verlieh dieses Buch, _package_,
+<ce> vor einigen Wochen an _dummy_ in
+<ce> __location_, und nun habe ich
+<ce> erfahren, dass mein Lehnsherr früher
+<ce> nach %cn zurückkehrt, in =timer Tagen.
+<ce> Ich werde Euch _reward_ Goldstücke bei
+<ce> Ankunft mit dem Buch zahlen. Lebt wohl
+<ce> und viel Glück.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Der %ra kehrt mit meinem Buch zurück!
+<ce> Ihr wisst nicht, wie nervös ich war, aus Angst,
+<ce> dass Ihr __location_ nicht finden oder
+<ce> rechtzeitig zurückkehren würdet. Ihr habt Euch
+<ce> wahrlich Eure _reward_ Goldstücke verdient.
+<ce> Ich schulde Euch mehr, als Ihr je wissen werdet.
+<ce> Dank Euch, guter %ra.
+<--->
+<ce> Ausgezeichnete Arbeit, ich wusste, dass Ihr der
+<ce> richtige %ra für diese Aufgabe seid, als
+<ce> ich Euch das erste Mal sah. Ich wünschte, ich
+<ce> könnte Euch mehr als diese _reward_ Goldstücke geben.
+<ce> Viel Glück, guter Abenteurer, und wisset, dass jemand
+<ce> in %cn Euch ewig dankbar ist.
+<--->
+<ce> Ich hörte, dass Ihr das Buch aus __location_
+<ce> geholt habt, doch ich muss gestehen, ich
+<ce> fürchtete, Ihr würdet es nicht rechtzeitig
+<ce> zurückbringen. Wie versprochen, hier sind
+<ce> Eure _reward_ Goldstücke . Ich bin Euch sehr
+<ce> dankbar. Danke, Euch.
+
+RumorsDuringQuest:   [1005]
+Es tut mir leid, ich wünschte, ich hätte etwas zu berichten, doch dem ist nicht so.
+<--->
+Nun, nichts Besonderes geschieht, soweit ich Euch sagen kann.
+
+QuestorPostsuccess:  [1008]
+<ce> Schön, Euch zu sehen, %pcf.
+<ce> Ich habe gerade einem Freund erzählt,
+<ce> wie effizient Ihr seid.
+
+QuestorPostfailure:  [1009]
+<ce> %oth! Was wollt Ihr, %pcf?
+<ce> Euer Versagen hat mich teuer zu stehen
+<ce> kommen lassen. Das solltet Ihr wissen.
+
+Message: 1010
+%qdt
+ _questgiver_ in ___questgiver_ hat
+ mich beauftragt, ein Buch, _package_,
+ von _dummy_ zu holen, der in
+ __location_ zu finden ist.
+ _questgiver_ erwartet, dass
+ ich in =timer_ Tagen oder weniger zurückkehre.
+
+Message: 1020
+<ce> Ihr seid hier wegen _package_, nicht wahr?
+<ce> Hier ist es. Sagt _questgiver_, ich danke ihm.
+<--->
+<ce> Hier ist das Buch, das _questgiver_ benötigt.
+<ce> Ihr solltet jetzt zurück nach %g2 eilen.
+<--->
+<ce> _questgiver_ hat Euch wegen des Buches geschickt?
+<ce> Verdammt, ich hätte es selbst gebrauchen können.
+<ce> Nun, eilt zurück nach %g2.
+
+Message: 1030
+<ce> _questgiver_ sollte _package_
+<ce> inzwischen erhalten haben. Da Ihr kein
+<ce> Goldstück mehr dafür bekommen werdet,
+<ce> beschließt Ihr, weiterzuziehen.
+
+
+QBN:
+Item _reward_ gold
+Item _package_ book
+
+Person _questgiver_ group Questor
+Person _dummy_ group Bookseller
+
+Place _location_ remote random
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	start timer _timer_
+	log 1010 step 0
+    place npc _dummy_ at _location_
+
+_dummyclicked_ task:
+    clicked npc _dummy_
+
+_retrieval_ task:
+    when _dummyclicked_
+    say 1020
+    get item _package_     
+ 
+ _qgclicked_ task:
+     toting _package_ and _questgiver_ clicked
+     give pc _reward_
+     end quest
+    
+_timer_ task:
+    say 1030
+    end quest

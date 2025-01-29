@@ -1,0 +1,475 @@
+Quest: ARENA10
+DisplayName: Verteidigung eines Gasthauses
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ich bezweifle, dass Ihr viel Erfahrung in sowas
+<ce> habt, doch ich kenne einen Gasthauswirt, der nach
+<ce> einem Wächter sucht, falls Ihr Interesse habt.
+<--->
+<ce> Seid gegrüßt. Ich weiß nicht, ob es ihm recht wäre,
+<ce> dass ich dies erwähne, doch ich kenne den Wirt einer
+<ce> der Gasthäuser in %ct, der ein paar Schwierigkeiten
+<ce> hat und vielleicht Schutz benötigt.
+<--->
+<ce> Falls Ihr ein paar Goldstücke verdienen wollt und
+<ce> nichts gegen einen ehrlichen Kampf habt, dann haltet
+<ce> Ausschau nach dem Wirt von _loc_.
+<ce> Ich bin mir ziemlich sicher, dass er nach ein paar
+<ce> Leibwächtern sucht.
+
+RefuseQuest:  [1001]
+<ce> Ja. Lasst einen anderen Abenteurer sich darum kümmern.
+<--->
+<ce> Ich mach Euch keinen Vorwurf. Ich würd’s genauso machen.
+<ce> Braucht Ihr sonst noch was?
+
+AcceptQuest:  [1002]
+<ce> Er heißt _dummy_ und
+<ce> ist der Wirt von _loc_,
+<ce> %di von hier. Könnt Ihr diesen
+<ce> Schlägern eine Lektion erteilen?
+
+QuestFail:  [1003]
+
+QuestComplete:  [1004]
+<ce> Ich kann Euch nicht genug danken, dass Ihr meinen Ort
+<ce> beschützt habt. Wenn ich es mir leisten könnte, würde
+<ce> ich Euch sicherlich mehr geben als die _reward_ Goldstücke,
+<ce> die ich für Euch habe, doch hier ist es. Ich werde heute
+<ce> versuchen, mich mit diesen Schlägern zu versöhnen. Ich denke,
+<ce> nach der Niederlage, die sie diese Nacht erlitten haben,
+<ce> werden sie offener für meinen Standpunkt sein. Dank Euch,
+<ce> Freund.
+<--->
+<ce> Hier sind die _reward_ Goldstücke, die ich Euch für die Arbeit
+<ce> versprochen habe. Ich muss gestehen, ich bin erstaunt, als
+<ce> ich mich umsah und all die Schläger sah, die gegen mich geschickt
+<ce> wurden. Sie sind mächtiger, als ich dachte, wenn sie es sich
+<ce> leisten können, so starke Krieger für eine so geringe Belästigung
+<ce> wie mich zu verschwenden. Nun ja, das geht Euch nichts an. Ihr
+<ce> habt heute Nacht tapfer gekämpft, und dafür danke ich Euch.
+<--->
+<ce> Niemals habe ich jemanden gesehen, der mit solchem Mut gegen
+<ce> Mitglieder dieser Bastard-Bande gekämpft hat. Ihr wart in der
+<ce> Unterzahl, doch ich sah Euch nie zögern oder an Rückzug denken.
+<ce> Hier sind die _reward_ Goldstücke. die ich Euch versprochen habe,
+<ce> würdiger %ra. Ich werde mich heute mit ihnen treffen
+<ce> und ihnen erlauben, sich zu entschuldigen. Lebt wohl.
+
+RumorsDuringQuest:   [1005]
+Habt Ihr schon vom Wirt der _loc_ gehört? Nun, wenn ja, dann wisst Ihr wohl, dass er stets in Schwierigkeiten steckt. Diesmal glaub ich, ist es recht ernst.
+<--->
+Ich weiß nichts über den Besitzer von _loc_, aber man sagt, er sucht Schutz. Ihr könntet ein paar Goldstücke verdienen, wenn Ihr bereit seid zu kämpfen.
+<--->
+Das Gerücht aus _loc_ – Ihr kennt das Gasthaus ein Stück %di von hier? – besagt, dass der Besitzer in großen Schwierigkeiten steckt und Schutz sucht. Wenn Ihr kein Problem mit dem Kampf habt, dann schaut doch mal nach.
+<--->
+Ich hab gehört, da ist ein =dummy_ in _loc_, der Ärger von einem der üblen Gesellen aus ___loc_ erwartet. Das Gasthaus ist liegt %di von hier, wenn Ihr meint, stark genug zu sein, um ihn zu verteidigen.
+<--->
+Wollt Ihr für Geld kämpfen? Man sagt, ein paar üble Burschen planen einen Angriff auf einen =dummy_. Ich bin mir sicher, er sucht Verteidiger in seinem Gasthaus, nur %di von hier, genannt _loc_.
+<--->
+Ich weiß nicht einmal, ob dieser =dummy_ es weiß, aber er hat sich mächtige Feinde in __loc_ gemacht. Wenn Ihr ihn in _loc_ aufsucht, nur ein paar Schritte %di von hier, bin ich sicher, er wird für Schutz bezahlen.
+<--->
+Die Straßenrüpel sind in letzter Zeit aktiver in ___dummy_.
+
+RumorsPostFailure:   [1006]
+Der Besitzer eines Gasthauses wurde in üblem Zustand gefunden. Er wurde von einigen Schlägern verprügelt, weil er kein Schutzgeld zahlte.
+
+RumorsPostSuccess:   [1007]
+_dummy_, der Besitzer von __dummy_, geht umher und erzählt Geschichten von einem tapferen %ra, der sein Haus vor Schlägern beschützt hat. Gut gemacht!
+
+QuestorPostsuccess:  [1008]
+<ce> Der Held von _loc_!
+<ce> Der Anführer der Schläger hat
+<ce> zugestimmt, meinen Freund in Ruhe
+<ce> zu lassen. Nochmals herzlichen Dank,
+<ce> %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Ihr habt wirklich Nerven, Euch hier
+<ce> blicken zu lassen, %pcf.
+<ce> Das Gasthaus meines Freundes steht
+<ce> nun unter dem "Schutz" dieser Schläger.
+
+Message: 1010
+%qdt
+ Man hat mich in Richtung _loc_ geschickt,
+ wo der Wirt, _dummy_, angeblich jemanden
+ sucht, der sein Haus bewacht.
+
+Message: 1011
+%qdt
+ Ich habe zugestimmt, das Gasthaus von _dummy_,
+ _loc_, heute Nacht vor einem möglichen Angriff
+ einer Bande von Schlägern zu schützen. Ich werde im
+ Gasthaus Wache halten und auf diese Narren warten.
+
+Message: 1015
+<ce> Ich muß meine Stimme dämpfen, junger %ra.
+<ce> Nur wenige Minuten, eh Ihr hereintratet, war hier
+<ce> eine Schar von Raufbolden, gewißlich Mitglieder der
+<ce> Hafenratten. Nun, sie waren ein wenig trunken und
+<ce> wild geworden, und ich bat sie höflich, zu gehen.
+<ce> Sie gaben mir einen Blick, der mich sehr beunruhigt
+<ce> hat. Meint Ihr, Ihr könntet mein Geschäft heute
+<ce> Nacht nach Schließung bewachen und sicherstellen,
+<ce> daß kein Schaden angerichtet wird? Ich wäre bereit,
+<ce> Euch _reward_ Goldstücke für Euren Schutz zu zahlen.
+<--->
+<ce> Habt Ihr von den Hafenratten gehört, guter %ra?
+<ce> Wenn den so ist, dann versteht Ihr, warum ich flüstere.
+<ce> Ich schulde ihnen Geld, viel Geld. Ihr Anführer hat
+<ce> offen gedroht, mir in dieser Nacht mein Gasthaus über
+<ce> dem Haupte einzureißen. Würdet Ihr in _loc_
+<ce> Wache halten und es beschützen? Ich kann Euch _reward_ Goldstücke
+<ce> für Eure Dienste anbieten. Bitte, werdet Ihr mir helfen?
+<--->
+<ce> Ihr seht aus wie der stärkste %ra hier, und
+<ce> ich benötige Eure Hilfe. Die Hafenratten haben mich
+<ce> vergangene Nacht aufgesucht und gefragt, ob ich daran
+<ce> interessiert sei, mein Geschäft zu verkaufen. Ich sagte
+<ce> nein, was offenbar nicht die richtige Antwort war. Ich
+<ce> bin mir sicher, dass sie diese Nacht einige ihrer Leute
+<ce> schicken werden, um mich zu ruinieren. Ich gebe Euch
+<ce> _reward_ Goldstücke, wenn Ihr hier in _loc_
+<ce> Wache haltet. Einverstanden?
+
+Message: 1016
+<ce> Ich muß meine Stimme dämpfen, junger %ra.
+<ce> Nur wenige Minuten, eh Ihr hereintratet, war hier
+<ce> eine Schar von Raufbolden, gewißlich Mitglieder der
+<ce> Diebesgilde Nun, sie waren ein wenig trunken und
+<ce> wild geworden, und ich bat sie höflich, zu gehen.
+<ce> Sie gaben mir einen Blick, der mich sehr beunruhigt
+<ce> hat. Meint Ihr, Ihr könntet mein Geschäft heute
+<ce> Nacht nach Schließung bewachen und sicherstellen,
+<ce> daß kein Schaden angerichtet wird? Ich wäre bereit,
+<ce> Euch _reward_ Goldstücke für Euren Schutz zu zahlen.
+<--->
+<ce> Habt Ihr von der Diebesgilde gehört, guter %ra?
+<ce> Wenn den so ist, dann versteht Ihr, warum ich flüstere.
+<ce> Ich schulde ihnen Geld, viel Geld. Ihr Anführer hat
+<ce> offen gedroht, mir in dieser Nacht mein Gasthaus über
+<ce> dem Haupte einzureißen. Würdet Ihr in _loc_
+<ce> Wache halten und es beschützen? Ich kann Euch _reward_ Goldstücke
+<ce> für Eure Dienste anbieten. Bitte, werdet Ihr mir helfen?
+<--->
+<ce> Ihr seht aus wie der stärkste %ra hier, und
+<ce> ich benötige Eure Hilfe. Die Diebesgilde hat mich
+<ce> vergangene Nacht aufgesucht und gefragt, ob ich daran
+<ce> interessiert sei, mein Geschäft zu verkaufen. Ich sagte
+<ce> nein, was offenbar nicht die richtige Antwort war. Ich
+<ce> bin mir sicher, dass sie diese Nacht einige ihrer Leute
+<ce> schicken werden, um mich zu ruinieren. Ich gebe Euch
+<ce> _reward_ Goldstücke, wenn Ihr hier in _loc_
+<ce> Wache haltet. Einverstanden?
+
+Message: 1020
+<ce> Dank Euch, %ra. Gelobt sei %god, dass
+<ce> Ihr zu mir gesandt worden seid. Die Schläger werden
+<ce> heute Nacht hier erwartet. Möge %god
+<ce> Euch diese Nacht beschützen, %pcf.
+<--->
+<ce> Mein Gemüt ist nun deutlich beruhigter, ich danke Euch!
+<ce> Wacht heute Nacht hier und erwartet die Schläger.
+<ce> Ich fürchte, sie könnten auf den Gedanken kommen,
+<ce> den Ort niederzubrennen, indem sie Fackeln durch
+<ce> die Fenster werfen. Wer weiß? Ich werde zu %god
+<ce> für Euren Erfolg beten.
+<--->
+<ce> Das ist eine Erleichterung. Wacht heute Nacht hier
+<ce> und haltet jeden Schläger auf, der gegen mein Haus
+<ce> gesandt wird. Vielleicht wird schon Eure Anwesenheit
+<ce> sie davon abhalten, ihr Vorhaben auszuführen.
+<ce> Viel Glück, %ra. Ich schätze Euren Einsatz sehr.
+
+Message: 1021
+<ce> Wahrlich, Ihr habt kein Herz!
+<ce> Ich werde einen anderen finden,
+<ce> der mein Haus beschützt. Das ist
+<ce> typisch für Euresgleichen.
+
+Message: 1030
+<ce> Ihr rüstet Euch für die Horden der Hafenratten
+<ce> und gewöhnt Euch so sehr an die dunklen Gassen,
+<ce> die Ihr durch die Fenster erspäht, dass Ihr jeden
+<ce> Schatten, jedes Geräusch um Euch herum genau kennt.
+<ce> Es ist das leiseste Geräusch, das Kratzen von Stahl
+<ce> auf Stein, das Euch warnt. Ihr seid nicht überrascht,
+<ce> als Minuten später die vordere Tür und einige Fenster
+<ce> gewaltsam aufgebrochen und eingeschlagen werden...
+<--->
+<ce> Viele Stunden sind vergangen, seit Ihr _questgiver_
+<ce> Eure Hilfe zugesagt habt. Jeder Schatten, jedes Geräusch
+<ce> in den Straßen ist Euch nun so vertraut geworden, dass
+<ce> fast alle Anspannung von Euch gewichen ist. Gerade beginnen
+<ce> Eure Augen schwer zu werden, als Ihr durch ein Fenster auf
+<ce> der anderen Straßenseite eine leichte Bewegung merkt. Ihr
+<ce> bereitet Euch auf den Kampf vor, als die Tür mit einem
+<ce> Tritt aufgestoßen und ein weiteres Fenster in tausend
+<ce> Scheiben geschlagen wird...
+<--->
+<ce> Ihr habt Euch bereit erklärt, diesen Ort für _dummy_
+<ce> zu beschützen, doch je tiefer und dunkler die Nacht wird,
+<ce> desto mehr zweifelt Ihr an dieser Entscheidung. Jeder weiß,
+<ce> wie mächtig die Hafenratten sind, und sich Ihnen offen zu
+<ce> stellen, könnte als reiner Selbstmord gelten. Plötzlich
+<ce> hört Ihr ein Husten vor einem offenen Fenster – ein Geräuch,
+<ce> das sonst niemand bemerkt hätte. Ihr greift zu den Waffen,
+<ce> und Sekunden später seid Ihr bereits mitten im Kampf...
+
+Message: 1031
+<ce> Ihr rüstet Euch für die Horden der Diebesgilde
+<ce> und gewöhnt Euch so sehr an die dunklen Gassen,
+<ce> die Ihr durch die Fenster erspäht, dass Ihr jeden
+<ce> Schatten, jedes Geräusch um Euch herum genau kennt.
+<ce> Es ist das leiseste Geräusch, das Kratzen von Stahl
+<ce> auf Stein, das Euch warnt. Ihr seid nicht überrascht,
+<ce> als Minuten später die vordere Tür und einige Fenster
+<ce> gewaltsam aufgebrochen und eingeschlagen werden...
+<--->
+<ce> Viele Stunden sind vergangen, seit Ihr _questgiver_
+<ce> Eure Hilfe zugesagt habt. Jeder Schatten, jedes Geräusch
+<ce> in den Straßen ist Euch nun so vertraut geworden, dass
+<ce> fast alle Anspannung von Euch gewichen ist. Gerade beginnen
+<ce> Eure Augen schwer zu werden, als Ihr durch ein Fenster auf
+<ce> der anderen Straßenseite eine leichte Bewegung merkt. Ihr
+<ce> bereitet Euch auf den Kampf vor, als die Tür mit einem
+<ce> Tritt aufgestoßen und ein weiteres Fenster in tausend
+<ce> Scheiben geschlagen wird...
+<--->
+<ce> Ihr habt Euch bereit erklärt, diesen Ort für _dummy_
+<ce> zu beschützen, doch je tiefer und dunkler die Nacht wird,
+<ce> desto mehr zweifelt Ihr an dieser Entscheidung. Jeder weiß,
+<ce> wie mächtig die Diebesgilde ist, und sich Ihnen offen zu
+<ce> stellen, könnte als reiner Selbstmord gelten. Plötzlich
+<ce> hört Ihr ein Husten vor einem offenen Fenster – ein Geräuch,
+<ce> das sonst niemand bemerkt hätte. Ihr greift zu den Waffen,
+<ce> und Sekunden später seid Ihr bereits mitten im Kampf...
+
+Message: 1040
+Einer der Schläger erkennt Euch.
+ 
+<ce> "%pcn? Ja, das ist %pcf, wahrlich.
+<ce> Es ist in Ordnung, Burschen, %pg1
+<ce> ist ein Freund der Gilde. Mischt Euch
+<ce> nicht in unsere Angelegenheiten mit
+<ce> _dummy_ ein. _loc_
+<ce> soll unser eigen sein. Nun, tretet beiseite."
+
+Message: 1041
+<ce> "Ich bin froh, dass wir uns verstehen.
+<ce> Lasst uns _dummy_ überzeugen, jungs.“
+ 
+Ihr hört ein Getöse, als die drei Raufbolde auf
+ihrem Wege zu _dummy_ Möbel
+zur Seite schieben. Dann beginnen sie, ihm eine
+ordentliche Tracht Prügel zu verpassen. Während
+_dummy_ zusammenkauert, blickt
+er Euch rasch an, seine Augen flehen um Hilfe.
+ 
+<ce> "Dieses Wirtshaus gehört nun der Diebesgilde,
+<ce> _dummy_. Versucht keine Dummheiten,
+<ce> sonst entsorgen wir Euch mit Freuden und
+<ce> überlassen _loc_ einem unserer
+<ce> eigenen Männer. %pcf, ich werde
+<ce> dem Gildenmeister von Eurer Hilfe berichten.
+<ce> Auf, jungs!“
+ 
+_dummy_ sinkt bewusstlos zu Boden und
+wird von einem Gast fortgetragen.
+
+Message: 1042
+<ce> Ihr lasst uns keine Wahl.
+<ce> Nehmt den %ra aus, jungs!
+
+Message: 1050
+<ce> Der letzte Schläger fällt zu Boden, sein
+<ce> Leben entweicht langsam. _dummy_
+<ce> wird erleichtert sein, vom Ausgang dieses
+<ce> Kampfes zu hören.
+
+Message: 1051
+<ce> Der Schläger fällt leblos zu Boden. Der Letzte,
+<ce> der noch steht, zögert, sichtlich verängstigt,
+<ce> und flieht in die Schatten der Nacht.
+<ce>
+<ce> _dummy_ wird erleichtert sein,
+<ce> vom Ausgang dieses Kampes zu hören.
+
+Message: 1060
+<ce> Ihr erinnert Euch, dass Ihr dem Besitzer von
+<ce> _loc_, _dummy_, versprochen
+<ce> habt, ihm letzte Nacht beizustehen und sein
+<ce> Gasthaus gegen Schläger zu verteidigen.
+
+Message: 1061
+<ce> Als Ihr das Gasthaus verlasst, während die Schläger
+<ce> noch drinnen verweilen, bemerkt Ihr, dass sie Euch
+<ce> nicht verfolgen, sondern sich stattdessen _dummy_
+<ce> zuwenden. Obgleich es Euch nicht gelang, %g3 Gasthaus
+<ce> zu schützen, so seid Ihr doch noch am Leben.
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+Person _dummy_ group Innkeeper male
+Person _tgnpc_ faction The_Thieves_Guild
+
+Place _loc_ local tavern
+
+Foe _foe1_ is Thief
+Foe _foe2_ is Rogue
+Foe _foe3_ is Burglar
+
+Clock _timer_ 1.00:00
+Clock _timer2_ 2.00:00
+
+
+variable _inside_
+variable _tgfriend_
+variable _foeattack_
+variable _tg_
+variable _wr_
+variable _battlebegins_
+
+--    Quest start-up:
+    start timer _timer2_
+    log 1010 step 0
+    place npc _dummy_ at _loc_
+    pc at _loc_ do _inside_
+    pick one of _tg_ _wr_
+    repute with _tgnpc_ exceeds 10 do _tgfriend_
+    hide npc _tgnpc_
+    dialog link for person _tgnpc_
+
+
+_dummyfirstgreetwr_ task:
+    when _dummyclicked_ and _wr_
+    prompt 1015 yes _yes_ no _no_
+
+_dummyfirstgreettg_ task:
+    when _dummyclicked_ and _tg_
+    prompt 1016 yes _yes_ no _no_
+
+_yes_ task:
+    say 1020
+    start timer _timer_
+    stop timer _timer2_
+    log 1011 step 0
+
+_no_ task:
+    say 1021
+    end quest
+
+_attackwr_ task:
+    when _wr_ and _yes_ and _inside_ and not _day_
+    say 1030
+    send _foe1_ every 0 minutes 1 times with 100% success
+    send _foe2_ every 0 minutes 1 times with 100% success
+    send _foe3_ every 0 minutes 1 times with 100% success
+    setvar _battlebegins_
+
+_attacktg1_ task:
+    when _tg_ and _yes_ and _inside_ and not _day_
+    say 1031   
+
+_attacktg2_ task:
+    when _attacktg1_ and _tgfriend_
+    prompt 1040 yes _tgyes_ no _tgno_
+
+_attacktg3_ task:
+    when _attacktg1_ and not _tgfriend_
+    send _foe1_ every 0 minutes 1 times with 100% success
+    send _foe2_ every 0 minutes 1 times with 100% success
+    send _foe3_ every 0 minutes 1 times with 100% success   
+    setvar _battlebegins_
+
+_tgyes_ task:
+    say 1041
+    change repute with _tgnpc_ by +5
+    change repute with _dummy_ by -5
+    change repute with _questgiver_ by -5
+    hide npc _dummy_
+    remove foe _foe1_
+    remove foe _foe2_
+    remove foe _foe3_
+    end quest
+
+_tgno_ task:
+    say 1042
+    send _foe1_ every 0 minutes 1 times with 100% success
+    send _foe2_ every 0 minutes 1 times with 100% success
+    send _foe3_ every 0 minutes 1 times with 100% success    
+    setvar _battlebegins_
+
+_foe1dead_ task:
+    killed _foe1_
+
+_foe2dead_ task:
+    killed _foe2_
+
+_foe3dead_ task:
+    killed _foe3_
+
+_foesdead_ task:
+    when _foe1dead_ and _foe2dead_ and _foe3dead_
+    say 1050
+    clear _dummyclicked_
+
+_2deadfoes01 task:
+    when _foe1dead_ and _foe2dead_
+
+_2deadfoes02 task:
+    when _foe1dead_ and _foe3dead_
+
+_2deadfoes03 task:
+    when _foe2dead_ and _foe3dead_    
+
+_foeretreatchance_ task:
+    when _2deadfoes01 or _2deadfoes02 or _2deadfoes03
+    pick one of _foeretreat_ _foeattack_
+
+_foeretreat_ task:
+    say 1051
+    remove foe _foe1_
+    remove foe _foe2_
+    remove foe _foe3_
+    clear _dummyclicked_
+
+_success_ task:
+    when _foesdead_ or _foeretreat_
+    clear _battlebegins_
+
+_tgrephit_ task:
+    when _tg_ and _success_
+    change repute with _tgnpc_ by -20
+
+_turnquest_ task:
+    when _success_ and _dummyclicked_
+    give pc _reward_
+    end quest
+
+_day_ task:
+    daily from 06:00 to 23:00
+
+_enemyspawn_ task:
+    when _inside_ and not _day_
+    
+_dummyclicked_ task:
+    clicked npc _dummy_
+
+_pcflees_ task:
+    when _battlebegins_ and not _inside_
+    say 1061
+    end quest
+
+_timer_ task:
+    say 1060
+    end quest
+
+_timer2_ task:
+    end quest    

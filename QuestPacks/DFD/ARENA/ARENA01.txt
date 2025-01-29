@@ -1,0 +1,155 @@
+Quest: ARENA01
+DisplayName: Lieferung für einen Gemeinen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ich bedarf eurer Hilfe. Wenn meine
+<ce> Lieferung nicht rechtzeitig ankommt,
+<ce> werde ich in große Not geraten.
+<ce> Könnt Ihr mir helfen? Ich bin verzweifelt.
+<--->
+<ce> Grüße Euch, man hat mir berichtet,
+<ce> dass Ihr in der Stadt weilt. Sie
+<ce> nennen Euch %pcn. Wenn Ihr so
+<ce> fähig seid, wie Ihr scheint, kenne
+<ce> ich eine Möglichkeit für Euch, rasch
+<ce> Gold zu verdienen. Ich benötige eine
+<ce> Lieferung. Sind wir im Geschäft?
+<--->
+<ce> Leihet mir Euer Ohr, edler %ra.
+<ce> Um des Wohles von %cn willen
+<ce> ist es von höchster Dringlichkeit,
+<ce> dass dieses Paket überbracht wird.
+<ce> Werdet Ihr mir und %cn helfen?
+
+RefuseQuest:  [1001]
+<ce> Ihr wollt es nicht einmal erwägen, ja?
+<ce> Nun, das war wohl zu erwarten. Man
+<ce> hat mir schon immer gesagt, dass ein
+<ce> gewöhnlicher %ra faul, dumm und
+<ce> übelriechend wie Orkdung sei. Nichts
+<ce> für Ungut.
+<--->
+<ce> Ich verstehe. Dennoch danke. Aber,
+<ce> wenn Ihr jemandem erzählt, was ich
+<ce> Euch gerade gesagt habe, reiß ich Euch
+<ce> durch den Hals die Zähne aus.
+<ce> Einen schönen Tag noch.
+<--->
+<ce> Wirklich? Ihr wollt mir nicht helfen?
+<ce> Dann tut mir einen Gefallen: lasst
+<ce> niemanden wissen, worüber wir gesprochen
+<ce> haben. Lebt wohl.
+
+AcceptQuest:  [1002]
+<ce> Habt Dank, %pcn. Mein Herz ist erleichtert.
+<ce> Wenn dieser Sack nicht bei _location_
+<ce> in __location_ in =timer_ Tagen ist,
+<ce> wird mein Leben keinen Kupfer wert sein.
+<ce> _dummy_ wird dort sein, um den Sack
+<ce> entgegenzunehmen, falls Ihr rechtzeitig seid,
+<ce> und ich bin mir sicher, dass %g Euch
+<ce> _reward_ Goldstücke zahlen wird.
+<ce> Viel Glück, mein Freund.
+<--->
+<ce> %god, die guten Geister müssen Euch
+<ce> tatsächlich geschickt haben. Dieser
+<ce> Sack sollte bereits vor Tagen bei
+<ce> _location_ in __location_
+<ce> sein, und wenn er nicht in =timer_ Tagen
+<ce> dort ist, könnten schlimme Dinge geschehen.
+<ce> _dummy_ wird Euch dort _reward_ Goldstücke
+<ce> zahlen, falls Ihr pünktlich eintrefft.
+<ce> Ich zähle auf Euch, %pcn,
+<ce> enttäuscht mich nicht.
+<--->
+<ce> Ihr seid mein Retter, guter %ra.
+<ce> Nehmt diesen Sack und bringt ihn nach
+<ce> _location_ in __location_
+<ce> vor Ablauf von =timer Tagen. Dort
+<ce> erwartet Euch mein Kontakt _dummy_,
+<ce> der Euch _reward_ Goldstücke zahlen wird,
+<ce> falls Ihr rechtzeitig seid.
+<ce> Lebt wohl und viel Glück.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Ah, ich hörte, dass _questgiver_ Euch mit
+<ce> diesem Auftrag betraut hat. Gut zu sehen,
+<ce> dass Ihr das Paket rechtzeitig überbracht habt.
+<ce> Hier sind Eure _reward_ Goldstücke. Dank Euch.
+<--->
+<ce> Welch ein prächtiges Paket, und es ist sogar
+<ce> pünktlich da. Ganz untypisch für _questgiver_,
+<ce> so pünktlich zu sein, das versichere ich Euch.
+<ce> Nun, erfreut Euch an Eurer Belohnung von _reward_ Goldstücke.
+<ce> Ihr habt es Euch wahrlich verdient.
+<--->
+<ce> Ich habe Euch und das Paket erwartet, aber ich
+<ce> gestehe, ich hatte nicht damit gerechnet, dass
+<ce> Ihr pünktlich ankommt. Gute Arbeit.
+<ce> Ich glaube, _reward_ Goldstücke war der vereinbarte
+<ce> Betrag?
+
+RumorsDuringQuest:   [1005]
+Es geschieht nicht viel, soweit ich weiß.
+<--->
+Ihr fragt wohl die falsche Person. Ich habe nichts Interessantes gehört.
+<--->
+Ich bin sicher, ich habe nichts gehört, was Euch interessieren würde.
+
+QuestorPostsuccess:  [1008]
+<ce> Mein liebster Bote! Wie kann ich Euch helfen?
+
+QuestorPostfailure:  [1009]
+<ce> Eure Unfähigkeit, mein Paket zu liefern, hat mich teuer zu stehen kommen lassen. Das solltet Ihr wissen.
+
+Message: 1010
+%qdt
+ _questgiver_ in ___questgiver_ hat
+ mich beauftragt, ein _package_ an _dummy_
+ zu liefern, der sich bei _location_ in
+ __location_ aufhält. _questgiver_
+ erwartet, dass ich die Lieferung in
+ =timer_ Tagen oder weniger zustelle.
+
+Message: 1020
+<ce> Euer Inventar fühlt sich leichter an. Offenbar
+<ce> hat ein geschickter Taschendieb Euch um eine
+<ce> Last erleichtert. Nach Überprüfung merkt Ihr,
+<ce> dass das Paket für _dummy_ fehlt.
+<--->
+<ce> _dummy_ sollte das Paket inzwischen erhalten
+<ce> haben. Da Ihr keine Goldmünze mehr dafür
+<ce> bekommen werdet, werft Ihr es weg.
+
+
+QBN:
+Item _reward_ gold
+Item _package_ trinket
+
+Person _questgiver_ group Questor
+Person _dummy_ group Chemist
+
+Place _location_ remote random
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	start timer _timer_
+	log 1010 step 0
+    get item _package_ 
+    place npc _dummy_ at _location_
+
+_dummyclicked_ task:
+    toting _package_ and _dummy_ clicked
+    give pc _reward_
+    end quest
+ 
+_timer_ task:
+    say 1020
+    end quest

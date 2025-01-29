@@ -1,0 +1,312 @@
+Quest: ARENA06
+DisplayName: Eskorte für einen Adligen
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ich heiße Euch willkommen in der Stadt %cn.
+<ce> Wäre es mir möglich, so würde ich selbst aus dem
+<ce> Palast treten, doch meine Pflichten binden mich hier.
+<ce> Meine Schatzkammern stehen Euch offen, solltet Ihr
+<ce> meine Bitte annehmen und einen Verwandten für mich
+<ce> eskortieren. Sagt mir, wollt Ihr mehr darüber erfahren?
+<--->
+<ce> Ich habe eine äußerst dringliche Aufgabe und benötige
+<ce> jemanden, der einen Verwandten eskortieren kann.
+<ce> Die Schatzkammern der Stadt sind zwar nicht prall gefüllt,
+<ce> doch geize ich nicht mit der Belohnung, solltet Ihr annehmen.
+<ce> Wärt Ihr interessiert?
+<--->
+<ce> Denkt nicht, dass Ihr mir unbekannt seid, %pcn.
+<ce> Es könnte keinen besseren Zeitpunkt geben, unsere Stadt
+<ce> zu besuchen, als jetzt. Nicht nur ist dies meine liebste
+<ce> Jahreszeit, ich habe auch eine Bitte an Euch. Sorgt Euch
+<ce> nicht, ich weiß besser, als Euch gleich zu Beginn etwas
+<ce> Unmoralisches abzuverlangen. Solltet Ihr einen Verwandten
+<ce> von mir eskortieren, stehen Euch meine Schatzkammern weit
+<ce> offen. Seid Ihr tapfer genug, mehr zu erfahren?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Risiken, diese Aufgabe
+<ce> anzunehmen, und das macht Euch verständlicherweise
+<ce> nervös. So sei es, %ra. Verzeiht mir, wenn ich
+<ce> Euch nicht zur Tür geleite. Lebt wohl.
+<--->
+<ce> Wie schade. Ich muss wohl einen anderen Champion finden.
+<ce> Guten Tag, %pcn. Ich wünsche Euch alles Gute.
+<--->
+<ce> Nun, es überrascht mich nicht, dass Ihr dieses Abenteuer
+<ce> ablehnt, denn ich habe gehört, dass junge Leute wie Ihr,
+<ce> %ra, oft wenig Ehrgeiz haben. Ich hoffe, Ihr findet
+<ce> anderswo eine Aufgabe von Wert. Verlasst mich jetzt.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte zu folgen.
+<ce> Ich hoffe, Eure Reisen verlaufen wohl, und Ihr kehrt eines Tages
+<ce> nach %cn zurück. Nun könnt Ihr gehen. Ich werde jemanden
+<ce> finden, der bereit ist, dem %rt zu dienen und dabei
+<ce> reich zu werden. Gehabt Euch wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer viel zu tun hat. Ich sehe, Ihr seid derzeit
+<ce> erfolgreich. Möge das Glück auf Euren Wegen stets bei
+<ce> Euch sein ...
+<--->
+<ce> Ich nehme an, ich kann Euch nicht umstimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, die Risiken für Reichtum
+<ce> und Ruhm auf sich zu nehmen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr wäret interessiert, doch es gibt andere,
+<ce> die gerne die Gelegenheit ergreifen würden, ihre Geldbeutel zu
+<ce> füllen. Ich danke Euch, doch ich muss meine Aufmerksamkeit
+<ce> anderen Angelegenheiten widmen. Viel Glück auf Euren Reisen.
+<--->
+<ce> Ihr verweigert einem Mitglied des Königshauses von %reg
+<ce> solch eine kleine Bitte? Fort mit Euch, denn ich habe Wichtigeres
+<ce> zu bedenken, als einen unbedeutenden Abenteurer wie Euch.
+<ce> Verschwindet!
+
+AcceptQuest:  [1002]
+<ce> Dann sollt Ihr mein Champion sein, %pcn.
+<ce> Mein Schwager, _dummy_, hat dringliche
+<ce> Geschäfte in __location_, welche verlangen,
+<ce> dass %g binnen =timer_ Tagen dort sei. Wenn Ihr
+<ce> sicherstellen könnt, dass %g meinen Vertrauensmann,
+<ce> _contact_, im Palast von __location_
+<ce> rechtzeitig erreicht, werdet Ihr mit _reward_ Goldstücke
+<ce> belohnt. Mein Rat glaubt, dass die Feinde von
+<ce> %reg versuchen könnten, _dummy_
+<ce> aufzuhalten, ehe %g den Palast erreicht, doch
+<ce> ob dies wahr ist, bleibt ungewiss. Seid vorsichtig,
+<ce> %ra, und viel Glück.      
+<--->
+<ce> Ich freue mich, Euch meinen Champion zu nennen,
+<ce> %pcn, doch noch mehr freue ich mich,
+<ce> wenn diese Angelegenheit hinter uns liegt.
+
+Ich wünsche, dass Ihr meinen Schwager, _dummy_, nach __location_ eskortiert.
+Ihr müsst %g2 zum Palast bringen, wo eine Vertrauensperson von mir namens _contact_ Euch erwarten wird. __location_ liegt weniger als =timer_ Tagesritte %di von hier. Doch bedenkt, Ihr müsst _dummy_ vor Ablauf dieser Frist überbringen, sonst wird keine Zahlung erfolgen. Denkt daran, ich habe Euch angeheuert, um %g2 sicher und schnell zu geleiten, andernfalls würde ich %g2 selbst begleiten. Es gibt Gerüchte, dass die Feinde von %reg versuchen könnten, Euch aufzuhalten. Obgleich ich dem nicht zu viel Glauben schenken möchte, seid dennoch wachsam. Für Eure Mühen und die Zeit, die Ihr von Eurem geschäftigen Leben abzweigt, wird Euch mein Vertrauensmann bei Ankunft mit _reward_ Goldstücke entlohnen. Habt Dank, %ra, und möge Euch das Glück hold sein.
+<--->
+<ce> Ausgezeichnet, %pcn. Ihr seid wahrlich mutig.
+<ce> Ich habe einen Kontakt in __location_,
+<ce> etwas weniger als =timer_ Tagesritte %di von hier,
+<ce> der im Palast auf die Ankunft von _dummy_,
+<ce> meinem Schwager, wartet. Obwohl ich es nicht mit
+<ce> Gewissheit sagen kann, habe ich den Verdacht, dass
+<ce> %g, in Bündnis mit den Feinden von %reg,
+<ce> plant, den Thron an sich zu reißen. Ungeachtet
+<ce> dieser Anschuldigungen muss ich _dummy_
+<ce> aus den politischen Ränken des Hofes entfernen.
+<ce> Es könnte eine gefährliche Reise werden, falls
+<ce> %g tatsächlich Verbündete gegen mich hat. Solltet
+<ce> Ihr den Palast von __location_ nicht
+<ce> binnen =timer_ Tagen erreichen, wird mein Kontakt
+<ce> _contact_ den Befehl haben anzunehmen,
+<ce> dass mein Schwager in Freiheit ist, um jedweden
+<ce> Folgen zu entgehen. Eure großzügige Entlohnung
+<ce> von _reward_ Goldstücken wird dann verfallen.
+<ce> Eilt, hütet Euch selbst und möge das Glück auf
+<ce> Eurer Seite sein.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+Willkommen im Palast von __location_.
+Ich sehe, Ihr habt den Schwager von _questgiver_,
+_dummy_, bei Euch. Es ist mir eine Freude, Euch
+wie versprochen _reward_ Goldstücke zu überreichen.
+<--->
+Guten Tag, es freut mich, dass der Schwager von
+_questgiver_ eine so professionelle Eskorte
+nach __location_ hatte. Bitte nehmt unseren
+Dank entgegen sowie diese _reward_ Goldstücke.
+<--->
+Welche Freude, Euch und _dummy_
+pünktlich im Palast von __location_
+zu sehen. Gute Arbeit, %ra.
+Hier sind die versprochenen _reward_ Goldstücke.
+
+RumorsDuringQuest:   [1005]
+Es soll einen Heilkundigen irgendwo in der Wildnis von Valenwald geben, der angeblich ein Heilmittel gegen Lykanthropie gefunden hat. Könnt Ihr Euch das vorstellen? Ich wusste nicht einmal, dass dies ein Problem ist.
+<--->
+Mein Prophet spricht, dass die Sommersend-Inseln dem Untergang geweiht sind und unter die Fluten sinken werden. Er nannte kein genaues Wann, doch es klang, als stünde es bald bevor.
+<--->
+Nun, man erzählt, eine Seuche sei in einigen abgelegenen Dörfern an der Küste von Sommersend ausgebrochen. Meine Quellen sind jedoch zweifelhaft, weshalb ich für die Wahrheit nicht einstehen kann.
+
+RumorsPostSuccess:   [1007]
+Wusstet Ihr, dass der Schwager von _questgiver_ in ___contact_ ist? Ich wünschte, ich wüsste warum.
+<--->
+Nun. Offenbar ist der Schwager von _questgiver_ in ___contact_. Man sagt, %g sei auf Visite, doch einige sind misstrauisch.
+<--->
+Ratet mal, wen ich in ___contact_ gesehen habe? Den Schwager von _questgiver_, _dummy_!
+Ich frage mich, was %g dort wohl treibt.
+<--->
+Der Schwager von _questgiver_ war vor kurzem im Palast von ___contact_. Man sagte mir, %g sei dort gewesen mit einem verdächtig aussehenden %ra. Geheimnisvoll, nicht wahr?
+<--->
+Was glaubt Ihr, was der Schwager von _questgiver_ in ___contact_ zu suchen hat? Eine Visite? Das bezweifle ich. Doch wir werden wohl abwarten müssen.
+
+QuestorPostsuccess:  [1008]
+<ce> Ihr habt meinen Schwager eskortiert, %pcn.
+<ce> Wenngleich ich dankbar bin, habe ich dringende
+<ce> Angelegenheiten zu erledigen. Macht es kurz.
+
+QuestorPostfailure:  [1009]
+<ce> %oth! Was, bei des Kaisers Namen,
+<ce> macht Ihr wieder hier in %cn?
+<ce> Ich sandte Euch nach __location_
+<ce> mit meinem Schwager, und wie ich höre,
+<ce> ist _dummy_ niemals angekommen, Ihr
+<ce> närrischer %ra! Ich muss jemand
+<ce> anderen beauftragen, um %g2 zu finden.
+<ce> Verschwindet aus meinem Angesicht,
+<ce> ehe ich etwas Gewalttätiges tue!
+
+Message: 1010
+%qdt
+ Ich begleite _dummy_, den Schwager
+ von _questgiver_, zum Palast von
+ __location_. Dort soll ich mich mit
+ _contact_ treffen. Mir bleiben
+ =timer_ Tage, um dies zu vollenden.
+
+Message: 1020
+<ce> _dummy_ spricht:
+<ce> „Hört, ich kenne den Weg von hier.
+<ce> Danke für Eure Hilfe, %pcn.“
+<ce>
+<ce> _dummy_ eilt davon.
+<--->
+<ce> „Ich weiß nicht einmal, warum ich
+<ce> überhaupt eine Eskorte brauchte.“
+<ce>
+<ce> _dummy_ winkt Euch zum Abschied und geht,
+<ce> überzeugt davon, den Rest des Weges alleine zu schaffen.
+<--->
+<ce> _dummy_ sagt, %g wisse den Weg nach
+<ce> _location_ in __location_ von
+<ce> hier aus und verlässt Euch, indem
+<ce> %g in Richtung %di davonzieht.
+
+Message: 1030
+<ce> Diese Krieger wurden offenkundig von den
+<ce> Feinden von %reg gesandt,
+<ce> um Euch aufzuhalten, denn sie tragen die
+<ce> Farben ihres Hauses mit Stolz.
+<--->
+<ce> Die Gruppe, die Euch den Weg versperrt, steht
+<ce> im Dienste eines anderen. Es scheint offensichtlich,
+<ce> dass einer der Feinde von %reg ihr
+<ce> Gebieter ist, wenn sie wahrhaft wünschen,
+<ce> dass Eure Aufgabe scheitert.
+<--->
+<ce> Die Farben, die diese feindliche Gruppe trägt,
+<ce> gehören den Feinden von %reg. Es scheint,
+<ce> dass die Gerüchte über ihr Interesse, Eure
+<ce> Aufgabe zu vereiteln, wahr sind.
+<--->
+<ce> Eine gelegentlich umherziehende Bande ist
+<ce> kein ungewöhnlicher Anblick, doch eine, die
+<ce> die Farben der Feinde von %reg
+<ce> trägt, ist wahrlich seltsam.
+<ce> Es ist offensichtlich, dass sie Euch wirklich
+<ce> tot sehen wollen.
+<--->
+<ce> Man könnte dies für ein zufälliges Zusammentreffen
+<ce> mit einem feindlichen Krieger halten, doch nicht,
+<ce> wenn er die Farben der Feinde von %reg
+<ce> trägt. Die Gerüchte über ihre Einmischung in Eure
+<ce> Aufgabe sind offenbar wahr.
+
+Message: 1040
+<ce> Hätte ich gewusst, dass _dummy_ in der
+<ce> Lage wäre, allein nach __location_ zu
+<ce> gelangen, hätte ich meine Zeit nicht mit Euch
+<ce> verschwendet. Wie Ihr wohl bemerkt habt,
+<ce> ist %g offenbar weitaus fähiger, als ich
+<ce> dachte. Ich nehme an, Ihr seid nicht gekommen,
+<ce> um eine Belohnung zu fordern, sondern um Euch
+<ce> für Eure schlampige Eskorte zu entschuldigen.
+<ce> Entschuldigung angenommen. Ihr dürft nun gehen.
+<--->
+<ce> Mein Schwager ist tatsächlich in __location_.
+<ce> Ich erhielt die Nachricht vor wenigen Minuten.
+<ce> Ihr müsst Euch also um _dummy_ keine Sorgen
+<ce> machen. Doch wie Ihr sicher wisst, kann ich
+<ce> Euch für Euer Versagen keine Bezahlung gewähren.
+<ce> Fort mit Euch, %pcn.
+<--->
+<ce> %oth! Was, bei des Kaisers Namen,
+<ce> macht Ihr wieder hier in %cn?
+<ce> Ich sandte Euch nach __location_
+<ce> mit meinem Schwager, und wie ich höre,
+<ce> ist _dummy_ niemals angekommen, Ihr
+<ce> närrischer %ra! Ich muss jemand
+<ce> anderen beauftragen, um %g2 zu finden.
+<ce> Verschwindet aus meinem Angesicht,
+<ce> ehe ich etwas Gewalttätiges tue!
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+Person _dummy_ group Resident1
+Person _contact_ group Resident4
+
+Foe _agent1_ is Warrior
+Foe _agent2_ is Knight
+Foe _agent3_ is Archer
+Foe _agent4_ is Mage
+
+Place _location_ remote palace
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _agents_ 24:00
+Clock _end_ 7.00:00
+
+
+--	Quest start-up:
+	start timer _timer_
+    start timer _agents_
+	log 1010 step 0
+    place npc _contact_ at _location_
+    add _dummy_ face
+
+_contactclicked_ task:
+    clicked npc _contact_
+
+_escort_ task:
+    when _contactclicked_ and not _timer_
+    give pc _reward_
+    end quest
+
+_agents_ task:
+    pick one of _agentsyes_ _agentsno_
+
+_agentsyes_ task:
+	create foe _agent1_ every 0 minutes 1 times with 100% success 
+    create foe _agent2_ every 0 minutes 1 times with 75% success 
+	create foe _agent3_ every 0 minutes 1 times with 50% success 
+    create foe _agent4_ every 0 minutes 1 times with 30% success 
+    say 1030
+
+_agentsno_ task:
+
+_qgclicked_ task:
+    clicked npc _questgiver_
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_
+    say 1040
+    end quest
+
+_clearclick_ task:
+    when _qgclicked_ and not _timer_
+    clear _qgclicked_ _clearclick_  
+
+_end_ task:
+    end quest
+
+_timer_ task:
+    say 1020
+    start timer _end_

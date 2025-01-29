@@ -1,0 +1,385 @@
+Quest: ARENA08
+DisplayName: Auf freiem Fuß
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Ich heiße Euch willkommen in meiner Stadt. Euer Kommen ist glückhaft, denn ich habe eine Bitte an Euch. Wenn Ihr einen berüchtigten Verbrecher für mich einfangen würdet, so wäre ich bereit, Euch mit Gold zu belohnen. Wäret Ihr geneigt, mehr zu erfahren?
+<--->
+Ich würde leise sprechen, denn ich will die Freude meines Volkes nicht trüben, doch ich bedarf Eurer Hilfe. Wenn Ihr einen Gesetzlosen für mich jagen und fangen würdet, wäre ich Euch zutiefst dankbar. Möchtet Ihr mehr wissen?
+<--->
+Es scheint, als müsste ich jemanden finden, der einen Verbrecher für mich einfängt. Ich weiß, Eure Zeit ist kostbar, darum bin ich bereit, Euch einen stattlichen Lohn für Eure Dienste zu bieten. Soll ich Euch mehr erzählen?
+
+RefuseQuest:  [1001]
+<ce> Ich verstehe. Es gibt gewisse Gefahren, diese
+<ce> Aufgabe zu übernehmen, und dies macht Euch wohl nervös.
+<ce> Sehr wohl, %ra. Verzeiht, dass ich Euch nicht zur Tür
+<ce> geleite. Lebt wohl.
+<--->
+<ce> Welch ein Jammer. Ich werde einen anderen Champion
+<ce> finden müssen. Habt einen guten Tag, %pcn.
+<ce> Möge es Euch wohl ergehen.
+<--->
+<ce> Es überrascht mich kaum, dass Ihr dieses Abenteuer
+<ce> verweigert. Junge Leute wie Ihr, %ra, sind oft ohne
+<ce> Ehrgeiz. Möget Ihr anderswo etwas Sinnvolles tun.
+<ce> Geht nun.
+<--->
+<ce> Sehr wohl, ich kann Euch nicht zwingen, meiner Bitte
+<ce> nachzukommen. Möget Ihr sicher reisen und eines Tages
+<ce> nach %cn zurückkehren. Nun geht, ich werde
+<ce> jemand anderen finden, der dem %rt dienen
+<ce> und dabei reich werden will. Lebt wohl.
+<--->
+<ce> Ich bin enttäuscht, doch ich verstehe, dass ein junger
+<ce> Abenteurer stets voller Verpflichtungen ist. Möge Euch
+<ce> das Glück bei Euren Unternehmungen hold sein ...
+<--->
+<ce> Ich sehe, Ihr seid nicht umzustimmen. Vielleicht finde
+<ce> ich einen anderen, der bereit ist, Risiken für Wohlstand
+<ce> und Ruhm einzugehen. Lebt wohl, %ra.
+<--->
+<ce> Ich hatte gehofft, Ihr würdet interessiert sein, doch
+<ce> es gibt andere, die begierig darauf sind, ihre Geldbeutel
+<ce> zu füllen. Ich danke Euch, doch ich muss mich nun anderen
+<ce> Angelegenheiten widmen. Gute Reise, möge es Euch wohl ergehen.
+<--->
+<ce> Ihr wollt einer Bitte eines Mitglieds der königlichen
+<ce> Familie von %reg nicht Folge leisten?
+<ce> Fort mit Euch! Ich habe wichtigere Dinge zu bedenken
+<ce> als einen untauglichen %ra Abenteurer.
+<ce> Entfernt Euch!
+
+AcceptQuest:  [1002]
+<ce> Kommt näher, ich wünsche nicht, diese Angelegenheit
+<ce> vor neugierigen Ohren zu besprechen. Ich brauche
+<ce> jemanden mit Euren Fähigkeiten, um einen Mann für
+<ce> mich zu fangen. Er ist _dummy_, ein
+<ce> schändlicher Verbrecher, und ich will %g2 vor Gericht
+<ce> bringen. Andere wissen von meinem Vorhaben und könnten
+<ce> versuchen, Euch zu behindern. Es könnte die Diebesgilde
+<ce> oder die Dunkle Bruderschaft sein. Seid vorsichtig, es
+<ce> wird Euch bis zu =timer_ Tage kosten, nach ___location_
+<ce> und zurück zu reisen. Ich muss _dummy_ vorher haben,
+<ce> sonst wird %g nutzlos für mich sein. Als Lohn für Eure
+<ce> Dienste werde ich Euch _reward_ Goldstücke geben, wenn Ihr
+<ce> erfolgreich zurückkehrt. Ich verlasse mich auf Euch,
+<ce> %pcn. Enttäuscht mich nicht.
+<--->
+<ce> Habt Ihr die Geschichte von _dummy_ gehört, dem
+<ce> berüchtigten Gesetzlosen? Ich brauche %g2 hier, lebendig
+<ce> vor meinem Gericht, mit allen notwendigen Mitteln, und
+<ce> ich brauche Euch, um das zu tun. Ich vermute, die Diebesgilde
+<ce> oder die Dunkle Bruderschaft wird %g2 wahrscheinlich verteidigen.
+<ce> Es ist keine leichte Aufgabe, aber ich bin bereit, Euch
+<ce> _reward_ Goldstücke zu zahlen, wenn und nur wenn Ihr
+<ce> _dummy_ rechtzeitig hier habt. Reist nach ___location_,
+<ce> wo meine Spione mir berichtet haben, dass %g sich versteckt.
+<ce> Bringt diesen Schurken zu mir zurück, %ra.
+<--->
+<ce> Es gibt einen Verbrecher, einen schändlichen Schurken
+<ce> namens _dummy_, der frei in %g3 Heim herumläuft,
+<ce> einem verfluchten Loch namens ___location_,
+<ce> trotz %g2 vieler Verbrechen gegen mich und meine Herrschaft.
+<ce> Ich brauche %g2 bei mir in =timer Tagen, sonst könnte %g meiner
+<ce> Gerechtigkeit entkommen. _dummy_ hat mächtige
+<ce> Verbündete, aber meine Berater sagen mir, dass eine der
+<ce> kriminellen Organisationen der Region versuchen wird, %g2
+<ce> zu verteidigen. Bei Eurer erfolgreichen und pünktlichen
+<ce> Rückkehr mit dem verfluchten Gesetzlosen in Ketten werdet
+<ce> Ihr mit _reward_ Gold belohnt. Gute Jagd, %ra.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce> Ach, _dummy_, Ihr seht nicht allzu froh aus,
+<ce> einen alten Freund zu sehen. Ich hoffe, %pcn
+<ce> hat Euch gut behandelt. Mein Hof versammelt sich nun,
+<ce> und dort wird Euch zweifellos dieselbe Milde zuteilwerden.
+<ce> Schatzmeister, gebt %pcn die _reward_ Goldstücke,
+<ce> die ich versprochen habe. Ihr habt meinen Dank, junger
+<ce> %ra.
+<--->
+<ce> Willkommen zurück in %cn, %pcn.
+<ce> Lasst mich sehen, welchen Gast Ihr mitgebracht habt.
+<ce> Nun, es ist _dummy_, mein alter Freund.
+<ce> Ich glaube, Ihr habt einen Termin an meinem Gerichtshof,
+<ce> Schurke. Was %pcn betrifft, Ihr solltet
+<ce> stolz darauf sein, diesen bösen Toren der Gerechtigkeit
+<ce> zugeführt zu haben. Hier sind die _reward_ Goldstücke,
+<ce> die ich versprochen habe. Geht in Frieden.
+<--->
+<ce> Oh du höchst böser _dummy_, endlich müsst Ihr
+<ce> für Eure Verbrechen bezahlen. Ich werde gnädiger mit Euch
+<ce> sein, als Ihr es mit den Menschen meiner Stadt wart. Fort
+<ce> mit %g2. Und Ihr %pcn, hier ist Eure Belohnung
+<ce> von _reward_ Goldstücken, die ich versprochen habe. Wisset,
+<ce> dass der Fürst von %cn Euch dankbar ist.
+
+RumorsDuringQuest:   [1005]
+Habt Ihr gehört, dass _dummy_ aus den Kerkern des Palastes entkommen ist? Anscheinend war %g gerade bereit, vor Gericht gestellt zu werden, als %g die Flucht ergriffen hat. Wahrscheinlich ist %g schon auf halbem Weg nach Cyrodiil.
+
+RumorsPostFailure:   [1006]
+Nun, _dummy_ ist den Wachen auf %g3 Weg zum Schafott entkommen. Anscheinend ist %g immer noch auf freiem Fuß und sucht nach dem %ra, der %g gefangen genommen hat. Das ist ein übler Schurke, das sage ich Euch.
+
+RumorsPostSuccess:   [1007]
+Wusstet Ihr, dass _dummy_ endlich gefasst wurde? Ich glaube, %g wird bald hingerichtet. Mir fällt kein Schurke ein, der es mehr verdient hätte.
+<--->
+Ich habe gehört, dass _dummy_, der Gesetzlose, gerade für Verbrechen gegen den Staat hingerichtet wurde. Ich denke, %g3 einziges Verbrechen war, %t %rn im Schach zu besiegen, aber das ist wohl nicht wahr.
+<--->
+Der Herrscher von __location_, _questgiver_, hat diesen Gesetzlosen töten lassen, wisst Ihr, den, den %ra gefangen genommen hat? Ich habe gehört, dass _dummy_, so war %g3 Name, vor %g3 Tod einige abscheuliche Bemerkungen über den Kaiser gemacht hat.
+
+QuestorPostsuccess:  [1008]
+<ce> Dank Euch gehören die Verbrechen von _dummy_
+<ce> nun der Vergangenheit an. Begehrt Ihr etwas?
+<ce> Vielleicht einen Becher Wein?
+
+QuestorPostfailure:  [1009]
+<ce> Wo, Ihr abscheulicher Unrat, ist _dummy_,
+<ce> der Bastard, den ich Euch zu fangen befahl?
+<ce> War es Euch zu schwer, einen einzigen Gesetzlosen
+<ce> zu ergreifen? Ich habe keinen Sinn für Unfähigkeit.
+<ce> Hinfort mit Euch, Ihr Misthaufen eines %ra,
+<ce> und wagt es nicht, auch nur einen Kupferling
+<ce> Eurer Belohnung zu verlangen.
+
+Message: 1010
+%qdt
+ Ich bin von _questgiver_ im Palast des
+ ___questgiver_ beauftragt worden,
+ _dummy_, einen Gesetzlosen, binnen =timer_ Tagen
+ zurückzubringen. _dummy_ hält sich
+ versteckt in ___location_.
+
+Message: 1030
+<ce> _dummy_ dem Kampf nicht gewachsen, fällt in Ohnmacht.
+
+Message: 1040
+<ce> Es sind mehr als =timer_ Tage vergangen, seit
+<ce> Ihr ausgeschickt wurdet, den Gesetzlosen
+<ce> _dummy_ zu jagen. Inzwischen wird %g
+<ce> wohl aus %reg geflohen sein.
+
+Message: 1045
+<ce> Ihr hört hinter Euch ein deutliches "Popp".
+<ce> Ihr seht, dass _dummy_ verschwunden
+<ce> ist, offenbar durch einen Zauber.
+<--->
+<ce> Eine Truppe von Wachen in den Farben des
+<ce> ___questgiver_ nimmt _dummy_
+<ce> gefangen und führt %g2 ab, um der
+<ce> Gerechtigkeit zugeführt zu werden.
+
+Message: 1050
+<ce> Wo, Ihr abscheulicher Unrat, ist _dummy_,
+<ce> der Bastard, den ich Euch zu fangen befahl?
+<ce> War es Euch zu schwer, einen einzigen Gesetzlosen
+<ce> zu ergreifen? Ich habe keinen Sinn für Unfähigkeit.
+<ce> Hinfort mit Euch, Ihr Misthaufen eines %ra,
+<ce> und wagt es nicht, auch nur einen Kupferling
+<ce> Eurer Belohnung zu verlangen.
+<--->
+<ce> Vielleicht habe ich mich nicht klar genug
+<ce> ausgedrückt, als ihr das letzte Mal hier wart,
+<ce> aber ich brauchte _dummy_, die Geißel
+<ce> von %reg, binnen =timer_ Tagen. Eure
+<ce> Belohnung von _reward_ Goldstücken hing davon ab.
+<ce> Geht jetzt, ich will Euch nicht mehr sehen.
+<--->
+<ce> Ich bat euch, _dummy_ binnen =timer_ Tagen
+<ce> zu fangen, erinnert ihr Euch? Nun ist die Zeit
+<ce> vorbei, und ihr kommt mit leeren Händen. Nun,
+<ce> ihr werdet auch mit leeren Händen gehen, ohne
+<ce> einen Teil der Belohnung von _reward_ Gold. Ich
+<ce> dachte daran, Euch die Finger abzuhacken, um
+<ce> meinen Standpunkt klarzumachen, also schätzt
+<ce> Euch glücklich. Verschwindet!
+
+Message: 1060
+<ce> Ihr werdet mich niemals zu dieser Hexe,
+<ce> _questgiver_, bringen!
+<ce> Niemals! Niem—
+<--->
+<ce> Das ist ein Missverständnis!
+<ce> Ich habe niemals mit der Tochter
+<ce> von  _questgiver_ geschla—
+<--->
+<ce> Das ist ein Missverständnis!
+<ce> Ich habe niemals mit dem Sohn
+<ce> von _questgiver_ geschla—
+<--->
+<ce> Fangt mich, und meine Freunde
+<ce> werden davon erfahren!
+<ce> Sterbt, ihr Verdamm—
+<--->
+<ce> Ich habe Schlammkrabben bekämpft,
+<ce> die furchterregender waren als ih—
+<--->
+<ce> Dies ist der Moment, in dem ihr
+<ce> fallen solltet und... und...
+
+Message: 1070
+<ce> Die Mitglieder der Diebesgilde tragen keine
+<ce> Farben oder Abzeichen, denn ihre Gemeinschaft
+<ce> ist im Verborgenen. Nur ein wahrer Narr würde
+<ce> die Meisterschaft dieser Diebe bezweifeln.
+<--->
+<ce> Ihr werdet von zwei Dieben angegriffen,
+<ce> offensichtlich von der Diebesgilde gesandt.
+<ce> Verhandeln ist nicht ihre Art: Es scheint,
+<ce> sie haben andere Pläne mit Euch...
+<--->
+<ce> Die Gerüchte über das Interesse der Diebesgilde
+<ce> an Eurem Vorhaben sind wohl wahr. Die Diebe vor
+<ce> Euch haben eindeutig nicht den Befehl, Gefangene
+<ce> zu machen.
+<--->
+<ce> Die Diebe vor Euch wurden von der Diebesgilde
+<ce> geschickt. Es gibt keine Ankündigung ihrer
+<ce> Absichten ... doch die Treue zur Diebesgilde
+<ce> leuchtet in ihren Augen.
+<--->
+<ce> Die Erkennung der Verbündeten der Diebesgilde
+<ce> ist eine Lektion, die den meisten Kindern Tamriels
+<ce> gelehrt wird. Die Diebe vor Euch gehören zu dieser Ordnung.
+
+Message: 1080
+<ce> Die Assassinen sind einer der traditionellen Boten
+<ce> der Dunklen Bruderschaft. Ihr wisst, dass ihr Auftrag
+<ce> lautet, Euch schnell zu töten...
+<--->
+<ce> Es ist purer Wahnsinn, sich mit der Dunklen Bruderschaft
+<ce> anzulegen, und ein Blick auf die Assassinen genügt, um
+<ce> zu wissen, dass ihr genau das getan habt.
+<--->
+<ce> Die Treue der Diener der Dunklen Bruderschaft ist
+<ce> legendär. Ihr wisst, dass die Assassinen niemals
+<ce> nachgeben oder Gnade gewähren werden.
+<--->
+<ce> Sofort erkennt ihr, dass die Dunkle Bruderschaft
+<ce> diese Assassinen geschickt hat, um euch zu töten.
+<ce> Etwas in ihren Augen, etwas Unbarmherziges...
+<--->
+<ce> Es gibt keinen Zweifel, dass die Dunkle Bruderschaft
+<ce> die Assassinen auf euch angesetzt hat. Die Diener der
+<ce> Dunklen Bruderschaft sind Legion.
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+Person _dummy_ faction The_Thieves_Guild
+Person _dummytg_ faction The_Thieves_Guild
+Person _dummydb_ faction The_Dark_Brotherhood
+
+Foe _outlaw1_ is Battle_mage
+Foe _outlaw2_ is Sorceror
+Foe _outlaw3_ is Nightblade
+Foe _outlaw4_ is Assassin
+Foe _outlaw5_ is Barbarian
+Foe _outlaw6_ is Archer
+Foe _tg1_ is Rogue
+Foe _tg2_ is Thief
+Foe _db1_ is Assassin
+Foe _db2_ is Nightblade
+
+Place _location_ remote dungeon2
+
+Clock _timer_ 00:00 0 flag 17 range 0 2
+Clock _end_ 7.00:00
+
+--	Quest start-up:
+    log 1010 step 0
+	start timer _timer_
+    reveal _location_
+    pick one of _type1_ _type2_ _type3_ _type4_ _type5_ _type6_
+    pick one of _db_ _tg_
+
+_tg_ task:
+
+_db_ task:
+
+_type1_ task:
+    place foe _outlaw1_ at _location_
+
+_type2_ task:
+    place foe _outlaw2_ at _location_
+
+ _type3_ task:
+    place foe _outlaw3_ at _location_
+
+ _type4_ task:
+    place foe _outlaw4_ at _location_
+
+ _type5_ task:
+    place foe _outlaw5_ at _location_
+
+ _type6_ task:
+    place foe _outlaw6_ at _location_
+
+_injured_ task:
+    injured _outlaw1_
+    injured _outlaw2_
+    injured _outlaw3_
+    injured _outlaw4_
+    injured _outlaw5_
+    injured _outlaw6_
+    say 1060
+
+_capture_ task:
+    when _injured_
+    say 1030
+    remove foe _outlaw1_
+    remove foe _outlaw2_
+    remove foe _outlaw3_
+    remove foe _outlaw4_
+    remove foe _outlaw5_
+    remove foe _outlaw6_
+    add _dummy_ face
+
+_tgfoe_ task:
+    when _capture_ and _tg_
+    create foe _tg1_ every 60 minutes 2 times with 100% success msg 1070
+    create foe _tg2_ every 60 minutes 2 times with 100% success
+	change repute with _dummytg_ by -30
+
+_dbfoe_ task:
+    when _capture_ and _db_
+    create foe _db1_ every 60 minutes 2 times with 100% success msg 1080
+    create foe _db2_ every 60 minutes 2 times with 100% success
+    change repute with _dummydb_ by -30
+
+
+_qgclicked_ task:
+    clicked npc _questgiver_ 
+
+_success_ task:
+    when _qgclicked_ and _capture_ and not _timer_
+    give pc _reward_
+    end quest
+
+_qgangry_ task:
+    when _qgclicked_ and _timer_ and not _success_
+    say 1050
+    end quest
+
+_clearclick_ task:
+    when _qgclicked_ and not _capture_ and not _timer_
+    clear _qgclicked_ _clearclick_     
+
+_timer_ task:
+    start timer _end_
+
+_fail1_ task:
+    when _timer_ and not _capture_
+    say 1040
+
+_fail2_ task:
+    when _timer_ and _capture_
+    drop _dummy_ face
+    say 1045
+
+_end_ task:
+    end quest
