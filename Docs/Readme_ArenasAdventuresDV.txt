@@ -163,18 +163,18 @@ Kontaktinformationen direkt.
 1.1
 
     - Die Quest „Verteidigung eines Gasthauses“ hinzugefügt – eine aus Arena
-	  verworfene Quest, bei der Ihr ein Gasthaus gegen die "Hafenratten" oder
-	  die Diebesgilde verteidigt.
+      verworfene Quest, bei der Ihr ein Gasthaus gegen die "Hafenratten" oder
+      die Diebesgilde verteidigt.
     - Ein Fehler behoben, der es erlaubte, dass die Adligen 4 ihrer Quests
-	  vergaben, auch wenn die Rufanforderungen nicht erfüllt wurden.
+      vergaben, auch wenn die Rufanforderungen nicht erfüllt wurden.
 
 1.01
 
     - Den Text so formatiert, dass er zu klassischen Schriftarten und dem
-	  Retro-Darstellungsmodus passt.
+      Retro-Darstellungsmodus passt.
     - Einige Tippfehler behoben.
-	- Rettung eines Adeligen: Ein Fehler wurde behoben, der das Erscheinen
-	  des Questziels verhinderte.
+	  - Rettung eines Adeligen: Ein Fehler wurde behoben, der das Erscheinen
+      des Questziels verhinderte.
 
 1.0
 
